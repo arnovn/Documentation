@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>215</x>
+      <y>160</y>
+      <w>135</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>PoiSelectType
+--
+- restoButton: Button
+- visitButton: Button
+- routesButton: Button
+- activitiesButton: Button
+- poiMapButton: Button
+- intent: Intent
+--
+# onCreate(savedInstance: Bundle): void
+- initButtons(): void
+- setOnClickListeners(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>160</y>
+      <w>135</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>PoiArrayView
+--
+- listView: ListView
+- adapter: PoiAdapter1
+- hoofdView: TextView
+- poiObjects: ArrayList&lt;PoiObject1&gt;
+- type: int
+--
+# onCreate(savedInstance: Bundle): void
+
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>15</y>
+      <w>130</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>AsyncTask
+--
+
+--
+# doInBackground(string: String): String
+# onPostExecute(s: String): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>475</x>
+      <y>90</y>
+      <w>85</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>ConnectionPoiType1
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>55</y>
+      <w>15</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>120</y>
+      <w>45</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>345</x>
+      <y>180</y>
+      <w>115</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=-
+activityTypeSelected &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>595</x>
+      <y>160</y>
+      <w>135</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>PoiSingleItem
+--
+- id: int
+- hoofdView: TextView
+- addressView: TextView
+- distanceView: TextView
+- descriptionsView: TextView
+- poiImageView: ImageView
+- poiRoutButton: Button
+- object1: PoiObject1
+--
+# onCreate(savedInstance: Bundle): void
+- initViews(): void
+- buttonListener(): void
+- getPreviousData(): void
+- setViews(): void
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>90</y>
+      <w>85</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>ConnectionPoi
+--
+- result: String
+- loading: ProgressDialog
+--
+# onPreExecute(): void
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>655</x>
+      <y>135</y>
+      <w>45</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>65</y>
+      <w>160</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;300.0;20.0;300.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>220</y>
+      <w>160</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=-
+
+poiSelected &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0;300.0;120.0;300.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>305</y>
+      <w>150</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>PoiSingleRoute
+--
+- mapView: MapView
+- mapBoxMap: MapboxMap
+- destinationMarker: Marker
+- kioskInfo: KioskInfo
+- poiObject1: PoiObject1
+- distanceTextView: TextView
+- titleView: TextView
+- navigationMapRoute: NavigationMapRoute
+--
+# onCreate(savedInstance: Bundle): void
+- getKioskInfo(): void
+- setCameraPosition(): void
+- getRoute(origin: Point, destinatio: Point): void
++ onResume(): void
++ onStart(): void
++ onStop(): void
++ onPause(): void
++ onLowMemory(): void
++ onDestroy(): void
++ onSaveInstance(outState: Bundle)
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>535</x>
+      <y>510</y>
+      <w>140</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+OnMapReadyCallBack
+--
+--
++ onMapReady(mapboxMap: MapboxMap)
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>470</y>
+      <w>85</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;60.0;150.0;60.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>510</y>
+      <w>140</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+CallBack&lt;T&gt;
+--
+--
++ onFailure(call: Call&lt;T&gt;, t: Throwable)
++ onResponse(call: Call&lt;T&gt;, response: Response&lt;T&gt;)
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>445</x>
+      <y>470</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;40.0;380.0;40.0;380.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>675</x>
+      <y>260</y>
+      <w>60</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=-
+show route &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;100.0;50.0;100.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>355</x>
+      <y>270</y>
+      <w>150</w>
+      <h>205</h>
+    </coordinates>
+    <panel_attributes>PoiAllMapView
+--
+- mapView: MapView
+- mapBoxMap: MapboxMap
+- kioskInfo: KioskInfo
+- gotToPoiButton: Button
+- poiMapObjects: List&lt;PoiObject1&gt;
+- poiMarkers: List&lt;MarkerOptions&gt;
+- selectedPoiObject: PoiObject1 
+--
+# onCreate(savedInstance: Bundle): void
+- getKioskInfo(): void
+- initPoiObjects(): void
+- initializeButtons(): void
+- initializeMarkerListener(): void
+- generateMarkers(): void
+- initializeMap(): void
+- setCameraPosition(): void
+- getRoute(origin: Point, destinatio: Point): void
++ onResume(): void
++ onStart(): void
++ onStop(): void
++ onPause(): void
++ onLowMemory(): void
++ onDestroy(): void
++ onSaveInstance(outState: Bundle)
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>90</y>
+      <w>85</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>ConnectionGetAllPoi
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>365</x>
+      <y>65</y>
+      <w>160</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>300.0;20.0;10.0;20.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>205</x>
+      <y>120</y>
+      <w>175</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>330.0;10.0;330.0;50.0;10.0;50.0;10.0;420.0;300.0;420.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>500</x>
+      <y>260</y>
+      <w>180</w>
+      <h>125</h>
+    </coordinates>
+    <panel_attributes>lt=-
+showSelectedPoi &gt;</panel_attributes>
+    <additional_attributes>10.0;230.0;30.0;230.0;30.0;80.0;340.0;80.0;340.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>345</x>
+      <y>220</y>
+      <w>95</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-
+activityMapSelected &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0;170.0;100.0</additional_attributes>
+  </element>
+</diagram>
