@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>110</y>
+      <w>190</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>PaymentSelect
+--
+- creditView: TextView
+- priceBikeView: TextView
+- infoView: TextView
+- cardButton: Button
+- paypalButton: Button
+- creditButton: Button
+- delayedButton: Button
+- signOutButton: Button
+- bikeObject: ABikeObject
+- mail: String
+- code: String
+- credits: double
+- delayedPayment: int
+- id: int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
