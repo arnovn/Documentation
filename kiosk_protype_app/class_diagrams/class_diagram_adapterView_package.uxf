@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>260</y>
+      <w>95</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>ABikeObject
+--
+- id: int
+- type: int
+- code: int
+- bikeStand: int
+- batteryLevel: double
+- latitude: double
+- longitude: double
+--
++ getId(): int
++ getBatteryLevel(): int
++ getBikeStand(): int
++ getType(): int
++ getLatitude(): int
++ getLongitude(): int
++ getCode(): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>175</y>
+      <w>75</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>ABikeAdapter
+--
+- mContext: Contect
+- mResource: int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>355</x>
+      <y>90</y>
+      <w>220</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>ArrayAdapter
+--
+--
++ getView(position: int, convertView: View, parent: ViewGroup): View</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>365</x>
+      <y>130</y>
+      <w>115</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>210.0;20.0;10.0;20.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>435</x>
+      <y>175</y>
+      <w>75</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>ExtraCreditAdapter
+--
+- mContext: Contect
+- mResource: int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>465</x>
+      <y>120</y>
+      <w>15</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>425</x>
+      <y>260</y>
+      <w>95</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>ExtraCreditObject
+--
+- timeOrdered: Date
+- amount: double
+--
++ getTimeOrdered(): Date
++ getAmount(): double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>365</x>
+      <y>225</y>
+      <w>25</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+bike</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>465</x>
+      <y>210</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+credit</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>375</y>
+      <w>110</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>LoadingDialog
+--
+- acitvity: Activity
+- dialog: AlertDialog
+- builder: AlertDialog.Builder
+--
++ startLoading(): void
++ dismissDialog(): void
++ getBuilder(): AlertDialog.Builder</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>155</y>
+      <w>175</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>MailDialog
+--
+- editTextMail: EditText
+- listener: MailDialogListener
+--
++ onCreateDialog(savedInstanceState: Bundle): Dialog
++ onAttach(context: Context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>95</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+MailDialogListener
+--
+--
++ applyTexts(phoneNumber: String)
++ cancelPressed(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>135</y>
+      <w>15</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=(+)-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>540</x>
+      <y>175</y>
+      <w>75</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>PastActivityAdapter
+--
+- mContext: Contect
+- mResource: int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>530</x>
+      <y>260</y>
+      <w>95</w>
+      <h>145</h>
+    </coordinates>
+    <panel_attributes>PastActivityObject
+--
+- bikeId: int
+- orderDate: Date
+- startRent: Date
+- endRent: Date
+- amount: double
+- amountPayed: double
+--
++ getBikeName(): String
++ getDuration(): String
++ getBikeId(): int
++ getOrderDate(): Date
++ getStartRent(): Date
++ getEndRent(): Date
++ getAmount(): double
++ getAmountPayed(): double
++ getTimeRented(): ArrayList
++ convertTimeToString(timeList: List): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>210</y>
+      <w>50</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+pastActivity</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>645</x>
+      <y>260</y>
+      <w>95</w>
+      <h>145</h>
+    </coordinates>
+    <panel_attributes>PendingPaymentObject
+--
+- id: int
+- bikeId: int
+- startRent: Date
+- endRent: Date
+- amount: double
+- amountPayed: double
+- type: int
+- pricePerHour: double
+--
++ getTimeRented(): ArrayList
++ getId(): int
++ getBikeId(): int
++ getStartRent() Date
++ getEndRent(): Date
++ getAmount(): double
++ getType(): int
++ getPricePerHour(): double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>640</x>
+      <y>175</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>PastActivityAdapter
+--
+- mContext: Contect
+- mResource: int
+--
+- setTime(timeList: List): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>685</x>
+      <y>210</y>
+      <w>65</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+pendingPayment</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>465</x>
+      <y>130</y>
+      <w>125</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;230.0;20.0;230.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>575</x>
+      <y>130</y>
+      <w>125</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;230.0;20.0;230.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>220</y>
+      <w>180</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>PhoneDialog
+--
+- edutTextPhone: EditText
+- listener: PhoneDialogListener
+--
++ onCreateDialog(savedInstanceState: Bundle): Dialog
++ onAttach(context: Context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>165</x>
+      <y>310</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+PhoneDialogListener
+--
+--
++ applyTexts(phoneNumber: String)
++ cancelPressed(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>215</x>
+      <y>280</y>
+      <w>15</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=(+)-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>765</x>
+      <y>250</y>
+      <w>100</w>
+      <h>155</h>
+    </coordinates>
+    <panel_attributes>PoiObject1
+--
+- id: int
+- type: int
+- name: String
+- address: String
+- description: String
+- distance: float
+- latitude: double
+- longitude: double
+--
++ getName(): String
++ getId(): int
++ getType(): int
++ getStringType(): String
++ getAddress(): String
++ getDistance(): float
++ getDescription(): String
++ getLatitude(): Double
++ getLongitude(): Double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>765</x>
+      <y>175</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>PoiAdapter1
+--
+- mContext: Contect
+- mResource: int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>805</x>
+      <y>210</y>
+      <w>50</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+poiObject1</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>685</x>
+      <y>130</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;250.0;20.0;250.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>250</x>
+      <y>405</y>
+      <w>120</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>TypeConverter
+--
+- typeMapper: map&lt;Integer, String&gt;
+--
++ getType(id: int): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
