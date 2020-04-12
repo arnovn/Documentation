@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>3</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>690</x>
+      <y>324</y>
+      <w>75</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>MemberOrNot
+--
+- registerButton: Button
+- loginButton: Button
+- bikeObject: ABikeObject
+--
+# onCreate(savedInstanceState): void
+- initButtons(): void
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>546</x>
+      <y>324</y>
+      <w>90</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>RegisterOptions
+--
+- facebookRegister: Button
+- googleRegister: Button
+- itsmeRegister: Button
+- standardRegister: Button
+- bikeObject: ABikeObject
+--
+# onCreate(savedInstanceState: Bundle): void
+- initButtons(): void
+- setStandardButton(): void
+- setGoogleButton(): void
+- setFacebookButton(): void
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>633</x>
+      <y>339</y>
+      <w>63</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=-
+&lt; onNotMemberClicked</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>546</x>
+      <y>207</y>
+      <w>90</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>RegisterStandard
+Note: uses hashingobjects &amp; mail also
+--
+- editNameText: EditText
+- editMailText: EditText
+- editPhoneNumber: EditText
+- confirmButton: ImageButton
+- bikeObject: ABikeObject
+- name: String
+- mail: String
+- phone: String
+- mailPattern: String
+--
+# onCreate(savedInstanceState: Bundle): void
+- initButtons(): void
+- setButtons(): void
+- startRegistration(): void
+- checkValidInputData(): boolean
++ toVerificationScreen(code: String): void
++ generateRandomNumber(): String
++ generateVerificationCode(): String
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>585</x>
+      <y>303</y>
+      <w>51</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=-
+standard registration &gt;</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>651</x>
+      <y>87</y>
+      <w>78</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>AsyncTask
+--
+
+--
+# doInBackground(string: String): String
+# onPostExecute(s: String): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>558</x>
+      <y>171</y>
+      <w>66</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>ConnectionCheckUserData
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>588</x>
+      <y>111</y>
+      <w>105</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>330.0;10.0;330.0;100.0;10.0;100.0;10.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>588</x>
+      <y>189</y>
+      <w>27</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>633</x>
+      <y>165</y>
+      <w>66</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>ConnectionNewUserToDatabase
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>588</x>
+      <y>183</y>
+      <w>102</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>260.0;10.0;260.0;50.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>663</x>
+      <y>138</y>
+      <w>9</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>186</y>
+      <w>108</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>RegistrationGoogle
+--
+- googleUrlView: TextView
+- googleCodeView: TextView
+- phoneDialog: PhoneDialog
+- deviceCode: String
+- userCode: String
+- expiresIn: String
+- verificationUrl: String
+- interval: int
+- pollIntent: Intent
+- accessToken: String
+- expiresInResult: int
+- scope: String
+- tokenType: String
+- idToken: String
+- userName: String
+- userMail: String
+- phoneNumber: String
+- code: String
+- bikeObject: ABikeObject
+- id: int
+_clientId: String_
+--
+# onCreate(savedInstanceState: Bundle): void
+- setUserInfoViews(): void
++ startPolling()
++ checkNewUserToDatabase(): void
++ generateNumber(): String
++ phoneDialogPopup(): void
++ finishRegistration(): void
++ sendCode(): void
++ toInstructionWindow(): void
+
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>345</y>
+      <w>81</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+PhoneDialogListener
+--
+--
++ applyTexts(phonenumber: String): void
++ cancelPressed(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>435</x>
+      <y>330</y>
+      <w>30</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>80.0;50.0;80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>372</x>
+      <y>147</y>
+      <w>63</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>GoogleLoginRequest
+--
+- output: String
+- responseCode: int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>399</x>
+      <y>171</y>
+      <w>27</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>399</x>
+      <y>135</y>
+      <w>198</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>640.0;20.0;10.0;20.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>171</x>
+      <y>303</y>
+      <w>138</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>_GoogleBroadcastReceiver_
+--
+- accesToken: String
+- scope: String
+- tokenType: String
+- idToken: String
+- expiresIn: int
+--
++ setGoogleBroadcastListener(listener: GoogleBroadcastListener): void
++ getAccessToken(): String
++ getExpiresIn(): String
++ getScope(): String
++ getTokenType(): String
++ getIdToken(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>156</x>
+      <y>384</y>
+      <w>69</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+GoogleBroadcastListener
+--
+--
++ onObjectReady(title: String): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>228</x>
+      <y>384</y>
+      <w>96</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>BroadcastReceiver
+--
+--
+onReceive(context: Context, intent: Intent): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>366</y>
+      <w>9</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>189</x>
+      <y>369</y>
+      <w>9</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=(+)-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>282</y>
+      <w>93</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+googleBroadcastReceiver</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0;290.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>303</x>
+      <y>147</y>
+      <w>63</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>ConnectionGoogleCredentials
+--
+- result: String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>213</x>
+      <y>147</y>
+      <w>84</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>ConnectionCheckNewGoogleRegistration
+--
+- result: String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>135</x>
+      <y>147</y>
+      <w>72</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>ConnectionGoogleUserToDatabase
+--
+- result: String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>351</x>
+      <y>171</y>
+      <w>54</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0;160.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>252</x>
+      <y>171</y>
+      <w>108</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0;340.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>165</x>
+      <y>171</y>
+      <w>96</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0;300.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>135</y>
+      <w>78</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>240.0;20.0;10.0;20.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>246</x>
+      <y>135</y>
+      <w>93</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>290.0;20.0;10.0;20.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>168</x>
+      <y>135</y>
+      <w>87</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>270.0;20.0;10.0;20.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>339</y>
+      <w>174</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=-
+
+
+
+
+
+&lt; google registration</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0;560.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>447</x>
+      <y>186</y>
+      <w>90</w>
+      <h>111</h>
+    </coordinates>
+    <panel_attributes>SimpleClass
+--
+- loginButton: DeviceLoginButton
+- callbackManager: CaalBackMananger
+_- EMAIL: String_
+- token: AccessToken
+- name: String
+- mail: String
+- phoneNumber: String
+- code: String
+- bikeObject: ABikeObject
+- phoneDialog: PhoneDialog
+- id: int
+--
+# onCreate(savedInstanceState: Bundle): void
+# onActivityResult(requestCode: int, resultCode: int, data: Intent): void
++ getUserData(): void
++ openPhoneDialog(): void
++ returnToRegisterSelect(): void
++ checkUserAlreadyExists(): void
++ finishRegistration(): void
++ generateRandomNumber(): void
++ sendCode(): void
++ toPaymentWindow(): void
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>456</x>
+      <y>294</y>
+      <w>42</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;130.0;120.0;130.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>441</x>
+      <y>147</y>
+      <w>72</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>ConnectionCheckNewFBRegistration
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>474</x>
+      <y>138</y>
+      <w>9</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>474</x>
+      <y>165</y>
+      <w>24</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;60.0;50.0;60.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>516</x>
+      <y>147</y>
+      <w>66</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>ConnectionNewUserToDatabase
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>489</x>
+      <y>165</y>
+      <w>63</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;50.0;190.0;50.0;190.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>543</x>
+      <y>138</y>
+      <w>9</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>516</x>
+      <y>294</y>
+      <w>36</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=-
+&lt; facebook
+   registration</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;240.0;100.0;240.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>681</x>
+      <y>207</y>
+      <w>78</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>MailVerification
+--
+- enteredCode: String
+- entryList: ArrayList&lt;TextView&gt;
+- buttonList: ArrayList&lt;Button&gt;
+- deleteButton: Button
+- bikeObject: ABikeObject
+- mail: String
+- verificationCode: String
+- id: int
+--
+#onCreate(savedInstanceState: Bundle): void
+- connectTextViews(): void
+- addEntry(entry: String): void
+- checkCode(): void
+- deleteEntry(): void
+- setOnClickListeners(): void
+- connectButtons(): void
+
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>633</x>
+      <y>243</y>
+      <w>54</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=-
+verify new user &gt;</panel_attributes>
+    <additional_attributes>160.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>795</x>
+      <y>354</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>LoginOptions
+--
+- codeLogin: Button
+- smsLogin: button
+- rfidButton: Button
+- bikeObject: ABikeObject
+- type: String
+--
+# onCreate(savedInstanceState: Bundle): void
+- initButtons(): void
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>723</x>
+      <y>357</y>
+      <w>78</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=-
+onMemberClicked &gt;</panel_attributes>
+    <additional_attributes>240.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>780</x>
+      <y>207</y>
+      <w>78</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>LoginStandardCode
+--
+- enteredCode: String
+- type: String
+- mail: String
+- mailPattern: String
+- code: String
+- id: int
+- entryList: ArrayList&lt;TextView&gt;
+- editMailTextStd: EditText
+- buttonList: ArrayList&lt;Button&gt;
+- deleteButton: Button
+- loginButton: Button
+- bikeObject: ABikeObject
+
+--
+# onCreate(savedInstanceState: Bundle): void
+- connectTextViews(): void
+- connectButtons(): void
+- setOnClickListeners(): void
+- setDeleteButton(): void
+- setLoginButton(): void
+- addEntry(): void
+- deleteEntry(): void
+- checkInput(): void
+- checkMailEdit(): boolean
++ checkCodesMatch(): boolean
++ toPaymentWindow(): void
++ toPayForServicesWindow(): void
++ toAccountSettingsWindow(): void
++ toNextWindow(): void
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>789</x>
+      <y>165</y>
+      <w>60</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>ConnectioGetUserCode
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>684</x>
+      <y>135</y>
+      <w>141</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;450.0;20.0;450.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>816</x>
+      <y>183</y>
+      <w>27</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>855</x>
+      <y>282</y>
+      <w>42</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=-
+standard
+login 
+Selected &gt;</panel_attributes>
+    <additional_attributes>50.0;240.0;50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>900</x>
+      <y>207</y>
+      <w>138</w>
+      <h>189</h>
+    </coordinates>
+    <panel_attributes>LoginMemberCardBluetooth
+--
+- READ: String
+- STATUS: String
+- CANCEL: String
+- FINISH: String
+- bluetooth: BluetoothSPP
+- cancelButton: Button
+- mailText: EditText
+- id: int
+- mail: String
+- mailPattern: String
+- type: String
+- bikeObject: ABikeObjecy
+- deviceName: String
+- loadingDialog: LoadingDialog
+- androidPollHandler: Handler
+- codeRFID: String
+- runnable: Runnable
+- handlerInterval: int
+- RESULT_FAILED: int
+
+--
+# onCreate(savedInstanceState: Bundle): void
+- sendReadMessage(): void
+- checkMailEdit(): boolean
+- onStart(): void
+- onDestroy(): void
+- checkBluetoothAvailable(): void
+- setBluetoothListener(): void
+- setOnReceiveListener(): void
+- checkMessage(): void
+- inputRfidUser(): void
+- checkRridUser(): void
+- toAccountSettingsWindow(): void
+- toPayForServicesWindow(): void
+- toPaymentWindow(): void
+- checkConnected(): void
++ onActivityResult(requestCode: int, resultCode: int, data: Intent): void
++ compareCodes(receivedCode: String)
+
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>888</x>
+      <y>165</y>
+      <w>60</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>ConnectioInputNewCode
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>960</x>
+      <y>165</y>
+      <w>60</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>ConnectioGetRfidCode
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>918</x>
+      <y>183</y>
+      <w>27</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>987</x>
+      <y>183</y>
+      <w>27</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>816</x>
+      <y>135</y>
+      <w>111</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;350.0;20.0;350.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>918</x>
+      <y>135</y>
+      <w>78</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;240.0;20.0;240.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>846</x>
+      <y>393</y>
+      <w>129</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=-
+rfid card login &gt;</panel_attributes>
+    <additional_attributes>410.0;10.0;410.0;70.0;10.0;70.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1047</x>
+      <y>207</y>
+      <w>78</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>LoginSms
+--
+- enteredCode: String
+- mail: String
+- mailPattern: String
+- verificationCode: String
+- phoneNumber: String
+- mailDialog: MailDialog
+- entryList: ArrayList&lt;TextView&gt;
+- buttonList: ArrayList&lt;Button&gt;
+- deleteButton: Button
+- loginButton: Button
+- bikeObject: ABikeObject
+--
+# onCreate(savedInstanceState: Bundle): void
+- connectTextViews(): void
+- connectButtons(): void
+- setOnClickListeners(): void
+- openMailDialog(): void
+- addEntry(): void
+- deleteEntry(): void
+- checkInput(): void
+- checkMailEdit(): boolean
++ sendVerificationCodes(): void
++ generatedCode(): String
+
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1047</x>
+      <y>366</y>
+      <w>81</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+MailDialogListener
+--
+--
++ applyTexts(phonenumber: String): void
++ cancelPressed(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1080</x>
+      <y>348</y>
+      <w>9</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1053</x>
+      <y>162</y>
+      <w>60</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>ConnectioGetUserPhone
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>987</x>
+      <y>135</y>
+      <w>102</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;320.0;20.0;320.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1080</x>
+      <y>180</y>
+      <w>27</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>810</x>
+      <y>297</y>
+      <w>357</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=-
+sms login &gt;</panel_attributes>
+    <additional_attributes>1050.0;10.0;1100.0;10.0;1100.0;400.0;10.0;400.0;10.0;340.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>189</x>
+      <y>186</y>
+      <w>99</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>SyncService
+--
+- handler: Handler
+- clientId: String
+- clientSecret: String
+- deviceCode: String
+- code2: String
+- refreshToken: String
+- scope: String
+- tokenType: String
+- idToken: String
+- params: String
+- interval: int
+- responseCode: int
+- expiresIn: int
+- mContext: Context
+- runnable: Runnable
+--
++ signInSuccessfull(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>69</x>
+      <y>231</y>
+      <w>105</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Service
+--
+--
++ onStartCommand(intent: Intent, flags: int, startId: int)
++ onDestroy(): void
++ onBind(intent: Intent): IBinder</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>87</x>
+      <y>189</y>
+      <w>72</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>GoogleSigninChecker2
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>156</x>
+      <y>195</y>
+      <w>39</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>135</y>
+      <w>57</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>170.0;20.0;10.0;20.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>171</x>
+      <y>243</y>
+      <w>24</w>
+      <h>9</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+</diagram>

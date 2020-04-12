@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>10</zoom_level>
+  <zoom_level>7</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>430</x>
-      <y>110</y>
-      <w>190</w>
-      <h>300</h>
+      <x>14</x>
+      <y>406</y>
+      <w>196</w>
+      <h>280</h>
     </coordinates>
     <panel_attributes>PaymentSelect
 --
@@ -26,7 +26,688 @@
 - delayedPayment: int
 - id: int
 --
+# onCreate(savedInstance: Bundle): void
+- initUiLayer(): void
+- getPreviousInfo(): void
+- setDelayedButton(): void
+- setCreditsButton(): void
+- setCardButton(): void
+- setPaypalButton(): void
+- setSignoutButton(): void
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>336</x>
+      <y>161</y>
+      <w>182</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>AsyncTask
+--
+
+--
+# doInBackground(string: String): String
+# onPostExecute(s: String): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>14</x>
+      <y>266</y>
+      <w>154</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ConnectionGetUserPaymentInfo
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>63</x>
+      <y>217</y>
+      <w>378</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>520.0;10.0;520.0;50.0;10.0;50.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>63</x>
+      <y>308</y>
+      <w>63</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0;70.0;100.0;70.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>231</x>
+      <y>266</y>
+      <w>154</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ConnectionBikeTypeInfo
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>105</x>
+      <y>308</y>
+      <w>266</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>300.0;10.0;300.0;100.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>245</y>
+      <w>21</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>602</x>
+      <y>406</y>
+      <w>287</w>
+      <h>294</h>
+    </coordinates>
+    <panel_attributes>PaypalPayment
+--
+- qrView: ImageView
+- bikeObject: ABikeObject
+- mail: String
+- userId: int
+- orderId: int
+- amount: int
+- broadcastOrderId: int
+- broadcastOrderStatus: int
+- statusPollIntent: intent
+- filter: IntentFilter
+- asyncTask1: boolean
+- asyncTask2: boolean
+- asyncTask3: boolean
+--
+# onCreate(savedInstance: Bundle): void
+- getPreviousInfo(): void
+- initQR(): void
+- setBroadcastReceiver(): void
+- setBroadcastFilter(): void
+- startPolling(): void
+- finalizeOrder(): void
+- setTask(task1: boolean, task2: boolean, task3: boolean): void
+- toFinalScreen(): void
++ sendConfirmationMail(): void
+
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>525</x>
+      <y>735</y>
+      <w>364</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>_OrderStatusBroadcastReceiver_
+--
+- orderId: int
+- orderStatus: int
+- listener: OrderStatusBroadcastListener
+--
++ setOrderStatusBroadcastListener(listener: OrderStatusBroadcastListener): void
++ getOrderId(): int
++ getOrderStatus(): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>616</x>
+      <y>833</y>
+      <w>21</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=(+)-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>889</y>
+      <w>133</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+OrderStatusListener
+--
+--
++ onObjectReady(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>707</x>
+      <y>889</y>
+      <w>224</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>BroadcastReceiver
+--
+--
+onReceived(context: Context, intent: Intent): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>805</x>
+      <y>826</y>
+      <w>21</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>602</x>
+      <y>266</y>
+      <w>133</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ConnectionSetInputOrder
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>238</y>
+      <w>273</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;370.0;20.0;370.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>728</x>
+      <y>693</y>
+      <w>154</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+orderStatusBroadcastReceiver</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>749</x>
+      <y>266</y>
+      <w>105</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ConnectionSetUser
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>868</x>
+      <y>266</y>
+      <w>105</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ConnectionSetBike
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>672</x>
+      <y>238</y>
+      <w>147</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;190.0;20.0;190.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>798</x>
+      <y>238</y>
+      <w>140</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;180.0;20.0;180.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>798</x>
+      <y>308</y>
+      <w>182</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>180.0;10.0;180.0;100.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>658</x>
+      <y>308</y>
+      <w>98</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0;120.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>735</x>
+      <y>308</y>
+      <w>84</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>100.0;10.0;100.0;100.0;10.0;100.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>938</x>
+      <y>406</y>
+      <w>231</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>PaypalStatusPollService
+--
+- handler: Handler
+- orderId: int
+- paymentStatus: int
+- interval: int
+- timeoutCounter: int
+- runnableService: Runnable
+--
++ broadCastStatus(): void
++ broadCastTimedOut(): void
 </panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>924</x>
+      <y>161</y>
+      <w>245</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Service
+--
+--
++ onStartCommand(intent: Intent, flags: int, startId: int)
++ onDestroy(): void
++ onBind(intent: Intent): IBinder</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1134</x>
+      <y>196</y>
+      <w>161</w>
+      <h>224</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>50.0;10.0;210.0;10.0;210.0;250.0;10.0;250.0;10.0;300.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>994</x>
+      <y>266</y>
+      <w>133</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ConnectionPollOrderStatus
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1050</x>
+      <y>308</y>
+      <w>63</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>917</x>
+      <y>238</y>
+      <w>154</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;200.0;20.0;200.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1134</x>
+      <y>266</y>
+      <w>133</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ConnectionDeleteOrder
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1050</x>
+      <y>308</y>
+      <w>203</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>210.0;10.0;210.0;60.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>882</x>
+      <y>518</y>
+      <w>196</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=-
+initiates &gt;</panel_attributes>
+    <additional_attributes>10.0;100.0;260.0;100.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>294</x>
+      <y>406</y>
+      <w>245</w>
+      <h>287</h>
+    </coordinates>
+    <panel_attributes>AddCreditAmount
+--
+- userId: int
+- orderId: int
+- mail: String
+- paymentMethod: String
+- bikeObject: ABikeObject
+- amountOfExtraCredits: int
+- userCredits: double
+- extraCreditAdapted: ExtraCreditAdapter
+- extraCreditObjectList: ArrayList&lt;ExtraCreditObject&gt;
+- titleView: TextView
+- amountView: TextView
+- extraCreditListView: ListView
+- extraCreditButtons: ArrayList&lt;Button&gt;
+- checkOutButton: Butotn
+--
+# onCreate(savedInstanceState: Bundle): void
+- getPreviousInfo(): void
+- initTextView(): void
+- initExtraCreditObjects(): void
+- initButtons(): void
+- initSetOnClickListeners(): void
+- getExtraCredits(): int
+- updateAmountView(): void
++ toPaypalPayment(): void
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>266</y>
+      <w>154</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ConnectionInsertNewPayment
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>203</x>
+      <y>525</y>
+      <w>105</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=-
+Paypal &gt;
+clicked</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>406</x>
+      <y>308</y>
+      <w>98</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>120.0;10.0;120.0;90.0;10.0;90.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>483</x>
+      <y>245</y>
+      <w>21</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>532</x>
+      <y>518</y>
+      <w>84</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=-
+Checkout &gt;
+clicked</panel_attributes>
+    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>301</x>
+      <y>735</y>
+      <w>196</w>
+      <h>287</h>
+    </coordinates>
+    <panel_attributes>PayForServices
+--
+- userId: int
+- credits: double
+- amount: double
+- extraCredits: double
+- amountView: TextView
+- depthView: TextView
+- listView: ListView
+- creditsListView: ListView
+- adapter: PendingPaymentAdapter
+- creditAdapter: ExtraCreditAdapter
+- pendingPaymentObjects: ArrayList&lt;PendingPaymentObject&gt;
+- extraCreditObject: ArrayList&lt;ExtraCreditObject&gt;
+- add5Credits: Button
+- add10Credits: Button
+- add15Credits: Button
+- add20Credits: Button
+--
+# onCreate(savedInstanceState: Bundle): void
+- initElements(): void
+- setCreditListViewListener(): void
+- updateAmountView(): void
+- setButtons(): void
+- setTextViews: void
++ setCredits(credits: double): void
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>735</y>
+      <w>154</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ConnectionGetUserCredits
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>812</y>
+      <w>154</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ConnectionGetPendingPayments
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>0</x>
+      <y>245</y>
+      <w>84</w>
+      <h>532</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>100.0;10.0;10.0;10.0;10.0;740.0;100.0;740.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>0</x>
+      <y>756</y>
+      <w>84</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;120.0;100.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>217</x>
+      <y>742</y>
+      <w>98</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>217</x>
+      <y>749</y>
+      <w>77</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;130.0;90.0;130.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>399</x>
+      <y>686</y>
+      <w>63</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=-
+Paypal &gt;
+clicked</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
