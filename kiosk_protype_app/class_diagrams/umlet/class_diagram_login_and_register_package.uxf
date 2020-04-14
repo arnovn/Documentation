@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>3</zoom_level>
+  <zoom_level>2</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>690</x>
-      <y>324</y>
-      <w>75</w>
-      <h>36</h>
+      <x>510</x>
+      <y>256</y>
+      <w>50</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>MemberOrNot
 --
@@ -23,10 +23,10 @@ bg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>546</x>
-      <y>324</y>
-      <w>90</w>
-      <h>60</h>
+      <x>414</x>
+      <y>256</y>
+      <w>60</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>RegisterOptions
 --
@@ -48,10 +48,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>633</x>
-      <y>339</y>
-      <w>63</w>
-      <h>12</h>
+      <x>472</x>
+      <y>266</y>
+      <w>42</w>
+      <h>8</h>
     </coordinates>
     <panel_attributes>lt=-
 &lt; onNotMemberClicked</panel_attributes>
@@ -60,10 +60,10 @@ bg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>546</x>
-      <y>207</y>
-      <w>90</w>
-      <h>99</h>
+      <x>414</x>
+      <y>178</y>
+      <w>60</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes>RegisterStandard
 Note: uses hashingobjects &amp; mail also
@@ -93,10 +93,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>585</x>
-      <y>303</y>
-      <w>51</w>
-      <h>27</h>
+      <x>440</x>
+      <y>242</y>
+      <w>34</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>lt=-
 standard registration &gt;</panel_attributes>
@@ -105,10 +105,10 @@ standard registration &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>651</x>
-      <y>87</y>
-      <w>78</w>
-      <h>27</h>
+      <x>484</x>
+      <y>98</y>
+      <w>52</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>AsyncTask
 --
@@ -121,10 +121,10 @@ standard registration &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>558</x>
-      <y>171</y>
-      <w>66</w>
-      <h>21</h>
+      <x>422</x>
+      <y>154</y>
+      <w>44</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>ConnectionCheckUserData
 --
@@ -135,10 +135,10 @@ standard registration &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>588</x>
-      <y>111</y>
-      <w>105</w>
-      <h>66</h>
+      <x>442</x>
+      <y>114</y>
+      <w>70</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>330.0;10.0;330.0;100.0;10.0;100.0;10.0;200.0</additional_attributes>
@@ -146,10 +146,10 @@ standard registration &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>588</x>
-      <y>189</y>
-      <w>27</w>
-      <h>24</h>
+      <x>442</x>
+      <y>166</y>
+      <w>18</w>
+      <h>16</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;execute&gt;&gt;</panel_attributes>
@@ -158,10 +158,10 @@ standard registration &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>633</x>
-      <y>165</y>
-      <w>66</w>
-      <h>21</h>
+      <x>472</x>
+      <y>150</y>
+      <w>44</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>ConnectionNewUserToDatabase
 --
@@ -172,10 +172,10 @@ standard registration &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>588</x>
-      <y>183</y>
-      <w>102</w>
-      <h>21</h>
+      <x>442</x>
+      <y>162</y>
+      <w>68</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;execute&gt;&gt;</panel_attributes>
@@ -184,10 +184,10 @@ standard registration &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>663</x>
-      <y>138</y>
-      <w>9</w>
-      <h>33</h>
+      <x>492</x>
+      <y>132</y>
+      <w>6</w>
+      <h>22</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
@@ -195,10 +195,10 @@ standard registration &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>330</x>
-      <y>186</y>
-      <w>108</w>
-      <h>156</h>
+      <x>270</x>
+      <y>164</y>
+      <w>72</w>
+      <h>104</h>
     </coordinates>
     <panel_attributes>RegistrationGoogle
 --
@@ -241,10 +241,10 @@ bg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>420</x>
-      <y>345</y>
-      <w>81</w>
-      <h>27</h>
+      <x>330</x>
+      <y>270</y>
+      <w>54</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 PhoneDialogListener
@@ -257,10 +257,10 @@ PhoneDialogListener
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>435</x>
-      <y>330</y>
-      <w>30</w>
-      <h>21</h>
+      <x>340</x>
+      <y>260</y>
+      <w>20</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>80.0;50.0;80.0;10.0;10.0;10.0</additional_attributes>
@@ -268,10 +268,10 @@ PhoneDialogListener
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>372</x>
-      <y>147</y>
-      <w>63</w>
-      <h>27</h>
+      <x>298</x>
+      <y>138</y>
+      <w>42</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>GoogleLoginRequest
 --
@@ -284,10 +284,10 @@ PhoneDialogListener
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>399</x>
-      <y>171</y>
-      <w>27</w>
-      <h>18</h>
+      <x>316</x>
+      <y>154</y>
+      <w>18</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;execute&gt;&gt;</panel_attributes>
@@ -296,10 +296,10 @@ PhoneDialogListener
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>399</x>
-      <y>135</y>
-      <w>198</w>
-      <h>18</h>
+      <x>316</x>
+      <y>130</y>
+      <w>132</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>640.0;20.0;10.0;20.0;10.0;40.0</additional_attributes>
@@ -307,10 +307,10 @@ PhoneDialogListener
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>171</x>
-      <y>303</y>
-      <w>138</w>
-      <h>66</h>
+      <x>164</x>
+      <y>242</y>
+      <w>92</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>_GoogleBroadcastReceiver_
 --
@@ -332,10 +332,10 @@ PhoneDialogListener
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>156</x>
-      <y>384</y>
-      <w>69</w>
-      <h>27</h>
+      <x>154</x>
+      <y>296</y>
+      <w>46</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 GoogleBroadcastListener
@@ -347,10 +347,10 @@ GoogleBroadcastListener
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>228</x>
-      <y>384</y>
-      <w>96</w>
-      <h>21</h>
+      <x>202</x>
+      <y>296</y>
+      <w>64</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>BroadcastReceiver
 --
@@ -361,10 +361,10 @@ onReceive(context: Context, intent: Intent): void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>270</x>
-      <y>366</y>
-      <w>9</w>
-      <h>24</h>
+      <x>230</x>
+      <y>284</y>
+      <w>6</w>
+      <h>16</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
@@ -372,10 +372,10 @@ onReceive(context: Context, intent: Intent): void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
-      <y>369</y>
-      <w>9</w>
-      <h>21</h>
+      <x>176</x>
+      <y>286</y>
+      <w>6</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>lt=(+)-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
@@ -383,10 +383,10 @@ onReceive(context: Context, intent: Intent): void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
-      <y>282</y>
-      <w>93</w>
-      <h>27</h>
+      <x>210</x>
+      <y>228</y>
+      <w>62</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 googleBroadcastReceiver</panel_attributes>
@@ -395,10 +395,10 @@ googleBroadcastReceiver</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>303</x>
-      <y>147</y>
-      <w>63</w>
-      <h>27</h>
+      <x>252</x>
+      <y>138</y>
+      <w>42</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>ConnectionGoogleCredentials
 --
@@ -410,10 +410,10 @@ googleBroadcastReceiver</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>213</x>
-      <y>147</y>
-      <w>84</w>
-      <h>27</h>
+      <x>192</x>
+      <y>138</y>
+      <w>56</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>ConnectionCheckNewGoogleRegistration
 --
@@ -425,10 +425,10 @@ googleBroadcastReceiver</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>135</x>
-      <y>147</y>
-      <w>72</w>
-      <h>27</h>
+      <x>140</x>
+      <y>138</y>
+      <w>48</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>ConnectionGoogleUserToDatabase
 --
@@ -440,10 +440,10 @@ googleBroadcastReceiver</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>351</x>
-      <y>171</y>
-      <w>54</w>
-      <h>15</h>
+      <x>284</x>
+      <y>154</y>
+      <w>36</w>
+      <h>10</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;execute&gt;&gt;</panel_attributes>
@@ -452,10 +452,10 @@ googleBroadcastReceiver</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>171</y>
-      <w>108</w>
-      <h>15</h>
+      <x>218</x>
+      <y>154</y>
+      <w>72</w>
+      <h>10</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;execute&gt;&gt;</panel_attributes>
@@ -464,10 +464,10 @@ googleBroadcastReceiver</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>165</x>
-      <y>171</y>
-      <w>96</w>
-      <h>15</h>
+      <x>160</x>
+      <y>154</y>
+      <w>64</w>
+      <h>10</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;execute&gt;&gt;</panel_attributes>
@@ -476,10 +476,10 @@ googleBroadcastReceiver</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>330</x>
-      <y>135</y>
-      <w>78</w>
-      <h>18</h>
+      <x>270</x>
+      <y>130</y>
+      <w>52</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>240.0;20.0;10.0;20.0;10.0;40.0</additional_attributes>
@@ -487,10 +487,10 @@ googleBroadcastReceiver</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>246</x>
-      <y>135</y>
-      <w>93</w>
-      <h>18</h>
+      <x>214</x>
+      <y>130</y>
+      <w>62</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>290.0;20.0;10.0;20.0;10.0;40.0</additional_attributes>
@@ -498,10 +498,10 @@ googleBroadcastReceiver</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>168</x>
-      <y>135</y>
-      <w>87</w>
-      <h>18</h>
+      <x>162</x>
+      <y>130</y>
+      <w>58</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>270.0;20.0;10.0;20.0;10.0;40.0</additional_attributes>
@@ -509,10 +509,10 @@ googleBroadcastReceiver</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>378</x>
-      <y>339</y>
-      <w>174</w>
-      <h>48</h>
+      <x>302</x>
+      <y>266</y>
+      <w>116</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=-
 
@@ -526,10 +526,10 @@ googleBroadcastReceiver</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>447</x>
-      <y>186</y>
-      <w>90</w>
-      <h>111</h>
+      <x>348</x>
+      <y>164</y>
+      <w>60</w>
+      <h>74</h>
     </coordinates>
     <panel_attributes>SimpleClass
 --
@@ -562,10 +562,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>456</x>
-      <y>294</y>
-      <w>42</w>
-      <h>45</h>
+      <x>354</x>
+      <y>236</y>
+      <w>28</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;130.0;120.0;130.0;120.0;10.0</additional_attributes>
@@ -573,10 +573,10 @@ bg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>441</x>
-      <y>147</y>
-      <w>72</w>
-      <h>21</h>
+      <x>344</x>
+      <y>138</y>
+      <w>48</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>ConnectionCheckNewFBRegistration
 --
@@ -587,10 +587,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>474</x>
-      <y>138</y>
-      <w>9</w>
-      <h>15</h>
+      <x>366</x>
+      <y>132</y>
+      <w>6</w>
+      <h>10</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
@@ -598,10 +598,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>474</x>
-      <y>165</y>
-      <w>24</w>
-      <h>27</h>
+      <x>366</x>
+      <y>150</y>
+      <w>16</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;execute&gt;&gt;</panel_attributes>
@@ -610,10 +610,10 @@ bg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>516</x>
-      <y>147</y>
-      <w>66</w>
-      <h>21</h>
+      <x>394</x>
+      <y>138</y>
+      <w>44</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>ConnectionNewUserToDatabase
 --
@@ -624,10 +624,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>489</x>
-      <y>165</y>
-      <w>63</w>
-      <h>21</h>
+      <x>376</x>
+      <y>150</y>
+      <w>42</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;execute&gt;&gt;</panel_attributes>
@@ -636,10 +636,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>543</x>
-      <y>138</y>
-      <w>9</w>
-      <h>15</h>
+      <x>412</x>
+      <y>132</y>
+      <w>6</w>
+      <h>10</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
@@ -647,10 +647,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>516</x>
-      <y>294</y>
-      <w>36</w>
-      <h>78</h>
+      <x>394</x>
+      <y>236</y>
+      <w>24</w>
+      <h>52</h>
     </coordinates>
     <panel_attributes>lt=-
 &lt; facebook
@@ -660,10 +660,10 @@ bg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>681</x>
-      <y>207</y>
-      <w>78</w>
-      <h>84</h>
+      <x>504</x>
+      <y>178</y>
+      <w>52</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>MailVerification
 --
@@ -691,10 +691,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>633</x>
-      <y>243</y>
-      <w>54</w>
-      <h>12</h>
+      <x>472</x>
+      <y>202</y>
+      <w>36</w>
+      <h>8</h>
     </coordinates>
     <panel_attributes>lt=-
 verify new user &gt;</panel_attributes>
@@ -703,10 +703,10 @@ verify new user &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>795</x>
-      <y>354</y>
-      <w>90</w>
-      <h>45</h>
+      <x>580</x>
+      <y>276</y>
+      <w>60</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>LoginOptions
 --
@@ -725,10 +725,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>723</x>
-      <y>357</y>
-      <w>78</w>
-      <h>24</h>
+      <x>532</x>
+      <y>278</y>
+      <w>52</w>
+      <h>16</h>
     </coordinates>
     <panel_attributes>lt=-
 onMemberClicked &gt;</panel_attributes>
@@ -737,10 +737,10 @@ onMemberClicked &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>780</x>
-      <y>207</y>
-      <w>78</w>
-      <h>144</h>
+      <x>570</x>
+      <y>178</y>
+      <w>52</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>LoginStandardCode
 --
@@ -780,10 +780,10 @@ bg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>789</x>
-      <y>165</y>
-      <w>60</w>
-      <h>21</h>
+      <x>576</x>
+      <y>150</y>
+      <w>40</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>ConnectioGetUserCode
 --
@@ -794,10 +794,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>684</x>
-      <y>135</y>
-      <w>141</w>
-      <h>36</h>
+      <x>506</x>
+      <y>130</y>
+      <w>94</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;450.0;20.0;450.0;100.0</additional_attributes>
@@ -805,10 +805,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>816</x>
-      <y>183</y>
-      <w>27</w>
-      <h>30</h>
+      <x>594</x>
+      <y>162</y>
+      <w>18</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;execute&gt;&gt;</panel_attributes>
@@ -817,10 +817,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>855</x>
-      <y>282</y>
-      <w>42</w>
-      <h>78</h>
+      <x>620</x>
+      <y>228</y>
+      <w>28</w>
+      <h>52</h>
     </coordinates>
     <panel_attributes>lt=-
 standard
@@ -831,10 +831,10 @@ Selected &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>900</x>
-      <y>207</y>
-      <w>138</w>
-      <h>189</h>
+      <x>650</x>
+      <y>178</y>
+      <w>92</w>
+      <h>126</h>
     </coordinates>
     <panel_attributes>LoginMemberCardBluetooth
 --
@@ -884,10 +884,10 @@ bg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>888</x>
-      <y>165</y>
-      <w>60</w>
-      <h>21</h>
+      <x>642</x>
+      <y>150</y>
+      <w>40</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>ConnectioInputNewCode
 --
@@ -898,10 +898,10 @@ bg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>960</x>
-      <y>165</y>
-      <w>60</w>
-      <h>21</h>
+      <x>690</x>
+      <y>150</y>
+      <w>40</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>ConnectioGetRfidCode
 --
@@ -912,10 +912,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>918</x>
-      <y>183</y>
-      <w>27</w>
-      <h>30</h>
+      <x>662</x>
+      <y>162</y>
+      <w>18</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;execute&gt;&gt;</panel_attributes>
@@ -924,10 +924,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>987</x>
-      <y>183</y>
-      <w>27</w>
-      <h>30</h>
+      <x>708</x>
+      <y>162</y>
+      <w>18</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;execute&gt;&gt;</panel_attributes>
@@ -936,10 +936,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>816</x>
-      <y>135</y>
-      <w>111</w>
-      <h>36</h>
+      <x>594</x>
+      <y>130</y>
+      <w>74</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;350.0;20.0;350.0;100.0</additional_attributes>
@@ -947,10 +947,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>918</x>
-      <y>135</y>
-      <w>78</w>
-      <h>36</h>
+      <x>662</x>
+      <y>130</y>
+      <w>52</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;240.0;20.0;240.0;100.0</additional_attributes>
@@ -958,10 +958,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>846</x>
-      <y>393</y>
-      <w>129</w>
-      <h>27</h>
+      <x>614</x>
+      <y>302</y>
+      <w>86</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>lt=-
 rfid card login &gt;</panel_attributes>
@@ -970,10 +970,10 @@ rfid card login &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1047</x>
-      <y>207</y>
-      <w>78</w>
-      <h>144</h>
+      <x>748</x>
+      <y>178</y>
+      <w>52</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>LoginSms
 --
@@ -1008,10 +1008,10 @@ bg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1047</x>
-      <y>366</y>
-      <w>81</w>
-      <h>27</h>
+      <x>748</x>
+      <y>284</y>
+      <w>54</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 MailDialogListener
@@ -1024,10 +1024,10 @@ MailDialogListener
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>348</y>
-      <w>9</w>
-      <h>24</h>
+      <x>770</x>
+      <y>272</y>
+      <w>6</w>
+      <h>16</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
@@ -1035,10 +1035,10 @@ MailDialogListener
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1053</x>
-      <y>162</y>
-      <w>60</w>
-      <h>21</h>
+      <x>752</x>
+      <y>148</y>
+      <w>40</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>ConnectioGetUserPhone
 --
@@ -1049,10 +1049,10 @@ MailDialogListener
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>987</x>
-      <y>135</y>
-      <w>102</w>
-      <h>33</h>
+      <x>708</x>
+      <y>130</y>
+      <w>68</w>
+      <h>22</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;320.0;20.0;320.0;90.0</additional_attributes>
@@ -1060,10 +1060,10 @@ MailDialogListener
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>180</y>
-      <w>27</w>
-      <h>30</h>
+      <x>770</x>
+      <y>160</y>
+      <w>18</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;execute&gt;&gt;</panel_attributes>
@@ -1072,10 +1072,10 @@ MailDialogListener
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>810</x>
-      <y>297</y>
-      <w>357</w>
-      <h>126</h>
+      <x>590</x>
+      <y>238</y>
+      <w>238</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>lt=-
 sms login &gt;</panel_attributes>
@@ -1084,10 +1084,10 @@ sms login &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>189</x>
-      <y>186</y>
-      <w>99</w>
-      <h>90</h>
+      <x>176</x>
+      <y>164</y>
+      <w>66</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>SyncService
 --
@@ -1113,10 +1113,10 @@ sms login &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>69</x>
-      <y>231</y>
-      <w>105</w>
-      <h>30</h>
+      <x>96</x>
+      <y>194</y>
+      <w>70</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>Service
 --
@@ -1129,10 +1129,10 @@ sms login &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>87</x>
-      <y>189</y>
-      <w>72</w>
-      <h>21</h>
+      <x>108</x>
+      <y>166</y>
+      <w>48</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>GoogleSigninChecker2
 --
@@ -1144,10 +1144,10 @@ sms login &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>156</x>
-      <y>195</y>
-      <w>39</w>
-      <h>12</h>
+      <x>154</x>
+      <y>170</y>
+      <w>26</w>
+      <h>8</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;execute&gt;&gt;</panel_attributes>
@@ -1156,10 +1156,10 @@ sms login &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>135</y>
-      <w>57</w>
-      <h>60</h>
+      <x>130</x>
+      <y>130</y>
+      <w>38</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>170.0;20.0;10.0;20.0;10.0;180.0</additional_attributes>
@@ -1167,12 +1167,23 @@ sms login &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>171</x>
-      <y>243</y>
-      <w>24</w>
-      <h>9</h>
+      <x>164</x>
+      <y>202</y>
+      <w>16</w>
+      <h>6</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>92</x>
+      <y>92</y>
+      <w>738</w>
+      <h>232</h>
+    </coordinates>
+    <panel_attributes>CD_LOGIN_AND_REGISTER</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>

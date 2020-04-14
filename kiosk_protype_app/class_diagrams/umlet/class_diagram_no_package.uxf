@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>238</x>
+      <y>210</y>
+      <w>189</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>MainActivity
+--
+- rentBikeButton: Button
+- poiButton: Button
+- payButton: Button
+- settingsButton: Button
+--
+# onCreate (savedInstance: Bundle): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>700</x>
+      <y>7</y>
+      <w>126</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>KioskInfo
+--
+- name: String
+- id: int
+- longitude: double
+- latitude: double
+_- kioskInfo: KioskInfo_
+--
+_+ get(): KioskInfo_
++ getId(): int
++ getName(): String
++ getLongitude(): double
++ getLatitude(): double
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>238</x>
+      <y>441</y>
+      <w>189</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>InstructionVideo
+--
+- videoView: VideoView
+- buttonNext: Button
+- mail: String
+- id: int
+--
+# onCreate(savedInstance: Bundle): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>609</x>
+      <y>301</y>
+      <w>259</w>
+      <h>175</h>
+    </coordinates>
+    <panel_attributes>HashingObject
+--
+- saltLength: int
+- saltString: String
+- saltCode: String
+- hashValue: String
+- isLogin: boolean
+--
+- checkHashes(newHash: String, codeHash: String): void
+- generateSalt(): String
+- generateHash(): String
+- generateHash2(code: String): String
+- pasteSaltToHash(): String
+_- bytesToHex(hash: byte[]): String_
++ getAuthenticationSuccess(): boolean
++ getGeneratedHash(): String </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>238</x>
+      <y>301</y>
+      <w>189</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>FinalScreen
+--
+- bikeView: TextView
+- bikeStandView: TextView
+- lastSignoutButton: Button
+- timer: Timer
+--
+# onCreate (savedInstance: Bundle): void
+- setViews(): void
+- setButton(): void
+- setTimer(): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>497</x>
+      <y>210</y>
+      <w>189</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>BikeSelect
+--
+- listView: ListView
+--
+# onCreate(savedInstance: Bundle): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>154</x>
+      <y>245</y>
+      <w>98</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-
+final_to_main &gt;</panel_attributes>
+    <additional_attributes>120.0;180.0;10.0;180.0;10.0;10.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>231</y>
+      <w>91</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=-
+rent a bike &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>497</x>
+      <y>7</y>
+      <w>182</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>AsyncTask
+--
+
+--
+# doInBackground(string: String): String
+# onPostExecute(s: String): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>532</x>
+      <y>112</y>
+      <w>119</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>ConnectionBikeGet
+--
+- result: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>581</x>
+      <y>154</y>
+      <w>63</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;execute&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>581</x>
+      <y>63</y>
+      <w>21</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>133</x>
+      <y>0</y>
+      <w>742</w>
+      <h>546</h>
+    </coordinates>
+    <panel_attributes>CD_GENERAL</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>280</x>
+      <y>49</y>
+      <w>84</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>REF
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>308</x>
+      <y>49</y>
+      <w>56</w>
+      <h>14</h>
+    </coordinates>
+    <panel_attributes>CD_POI
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>70</y>
+      <w>98</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>lt=-
+&lt; point of interest
+PoiSelectType</panel_attributes>
+    <additional_attributes>120.0;200.0;120.0;140.0;10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>371</x>
+      <y>49</y>
+      <w>112</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>REF
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>399</x>
+      <y>49</y>
+      <w>84</w>
+      <h>14</h>
+    </coordinates>
+    <panel_attributes>CD_LOGIN
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>406</x>
+      <y>70</y>
+      <w>98</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>lt=-
+&lt; accountsettings
+LoginOptions
+
+&lt; pay for services
+LoginOptions</panel_attributes>
+    <additional_attributes>10.0;200.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>588</x>
+      <y>490</y>
+      <w>105</w>
+      <h>14</h>
+    </coordinates>
+    <panel_attributes>CD_ADAPTERVIEW
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>560</x>
+      <y>490</y>
+      <w>133</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>REF
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>504</y>
+      <w>154</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+bikeObject: ABikeObject</panel_attributes>
+    <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>413</y>
+      <w>154</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+bikeObject: ABikeObject</panel_attributes>
+    <additional_attributes>200.0;120.0;30.0;120.0;30.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>406</x>
+      <y>259</y>
+      <w>210</w>
+      <h>245</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=0..n
+            bikeObjects: ArrayList&lt;ABikeObject&gt;</panel_attributes>
+    <additional_attributes>240.0;330.0;240.0;150.0;50.0;150.0;50.0;10.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>448</x>
+      <y>266</y>
+      <w>168</w>
+      <h>238</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+adapter: ABikeAdapter</panel_attributes>
+    <additional_attributes>220.0;320.0;220.0;100.0;10.0;100.0;10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>168</x>
+      <y>49</y>
+      <w>105</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>REF
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>196</x>
+      <y>49</y>
+      <w>84</w>
+      <h>14</h>
+    </coordinates>
+    <panel_attributes>CD_PAYMENT
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>140</x>
+      <y>70</y>
+      <w>112</w>
+      <h>462</h>
+    </coordinates>
+    <panel_attributes>lt=-
+
+
+
+
+
+
+
+
+
+&lt; to payment
+PamentSelect</panel_attributes>
+    <additional_attributes>140.0;640.0;10.0;640.0;10.0;130.0;110.0;130.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>441</x>
+      <y>70</y>
+      <w>147</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>lt=-
+
+
+
+
+&lt; member or not
+MemberOrNot</panel_attributes>
+    <additional_attributes>130.0;200.0;130.0;180.0;80.0;180.0;80.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

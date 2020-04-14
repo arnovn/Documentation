@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>320</x>
-      <y>260</y>
+      <x>240</x>
+      <y>240</y>
       <w>95</w>
       <h>130</h>
     </coordinates>
@@ -31,8 +31,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>330</x>
-      <y>175</y>
+      <x>250</x>
+      <y>155</y>
       <w>75</w>
       <h>55</h>
     </coordinates>
@@ -47,8 +47,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>355</x>
-      <y>90</y>
+      <x>275</x>
+      <y>70</y>
       <w>220</w>
       <h>35</h>
     </coordinates>
@@ -61,8 +61,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>365</x>
-      <y>130</y>
+      <x>285</x>
+      <y>110</y>
       <w>115</w>
       <h>55</h>
     </coordinates>
@@ -72,8 +72,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>435</x>
-      <y>175</y>
+      <x>355</x>
+      <y>155</y>
       <w>75</w>
       <h>40</h>
     </coordinates>
@@ -88,8 +88,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>465</x>
-      <y>120</y>
+      <x>385</x>
+      <y>100</y>
       <w>15</w>
       <h>65</h>
     </coordinates>
@@ -99,8 +99,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>425</x>
-      <y>260</y>
+      <x>345</x>
+      <y>240</y>
       <w>95</w>
       <h>50</h>
     </coordinates>
@@ -116,8 +116,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>365</x>
-      <y>225</y>
+      <x>285</x>
+      <y>205</y>
       <w>25</w>
       <h>45</h>
     </coordinates>
@@ -128,8 +128,8 @@ bike</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>465</x>
-      <y>210</y>
+      <x>385</x>
+      <y>190</y>
       <w>30</w>
       <h>60</h>
     </coordinates>
@@ -140,8 +140,8 @@ credit</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>130</x>
-      <y>375</y>
+      <x>50</x>
+      <y>355</y>
       <w>110</w>
       <h>65</h>
     </coordinates>
@@ -159,8 +159,8 @@ credit</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>130</x>
-      <y>155</y>
+      <x>50</x>
+      <y>135</y>
       <w>175</w>
       <h>55</h>
     </coordinates>
@@ -176,8 +176,8 @@ credit</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>160</x>
-      <y>95</y>
+      <x>80</x>
+      <y>75</y>
       <w>120</w>
       <h>40</h>
     </coordinates>
@@ -192,8 +192,8 @@ MailDialogListener
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>210</x>
-      <y>135</y>
+      <x>130</x>
+      <y>115</y>
       <w>15</w>
       <h>30</h>
     </coordinates>
@@ -203,8 +203,8 @@ MailDialogListener
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>540</x>
-      <y>175</y>
+      <x>460</x>
+      <y>155</y>
       <w>75</w>
       <h>40</h>
     </coordinates>
@@ -219,8 +219,8 @@ MailDialogListener
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>530</x>
-      <y>260</y>
+      <x>450</x>
+      <y>240</y>
       <w>95</w>
       <h>145</h>
     </coordinates>
@@ -248,8 +248,8 @@ MailDialogListener
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>570</x>
-      <y>210</y>
+      <x>490</x>
+      <y>190</y>
       <w>50</w>
       <h>60</h>
     </coordinates>
@@ -260,8 +260,8 @@ pastActivity</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>645</x>
-      <y>260</y>
+      <x>565</x>
+      <y>240</y>
       <w>95</w>
       <h>145</h>
     </coordinates>
@@ -289,8 +289,8 @@ pastActivity</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>640</x>
-      <y>175</y>
+      <x>560</x>
+      <y>155</y>
       <w>100</w>
       <h>40</h>
     </coordinates>
@@ -305,8 +305,8 @@ pastActivity</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>685</x>
-      <y>210</y>
+      <x>605</x>
+      <y>190</y>
       <w>65</w>
       <h>60</h>
     </coordinates>
@@ -317,8 +317,8 @@ pendingPayment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>465</x>
-      <y>130</y>
+      <x>385</x>
+      <y>110</y>
       <w>125</w>
       <h>55</h>
     </coordinates>
@@ -328,8 +328,8 @@ pendingPayment</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>575</x>
-      <y>130</y>
+      <x>495</x>
+      <y>110</y>
       <w>125</w>
       <h>55</h>
     </coordinates>
@@ -339,8 +339,8 @@ pendingPayment</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>130</x>
-      <y>220</y>
+      <x>50</x>
+      <y>200</y>
       <w>180</w>
       <h>65</h>
     </coordinates>
@@ -356,8 +356,8 @@ pendingPayment</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>165</x>
-      <y>310</y>
+      <x>85</x>
+      <y>290</y>
       <w>120</w>
       <h>40</h>
     </coordinates>
@@ -372,8 +372,8 @@ PhoneDialogListener
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>215</x>
-      <y>280</y>
+      <x>135</x>
+      <y>260</y>
       <w>15</w>
       <h>35</h>
     </coordinates>
@@ -383,8 +383,8 @@ PhoneDialogListener
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>765</x>
-      <y>250</y>
+      <x>685</x>
+      <y>230</y>
       <w>100</w>
       <h>155</h>
     </coordinates>
@@ -413,8 +413,8 @@ PhoneDialogListener
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>765</x>
-      <y>175</y>
+      <x>685</x>
+      <y>155</y>
       <w>100</w>
       <h>40</h>
     </coordinates>
@@ -429,8 +429,8 @@ PhoneDialogListener
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>805</x>
-      <y>210</y>
+      <x>725</x>
+      <y>190</y>
       <w>50</w>
       <h>50</h>
     </coordinates>
@@ -441,8 +441,8 @@ poiObject1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>685</x>
-      <y>130</y>
+      <x>605</x>
+      <y>110</y>
       <w>135</w>
       <h>55</h>
     </coordinates>
@@ -452,8 +452,8 @@ poiObject1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>250</x>
-      <y>405</y>
+      <x>170</x>
+      <y>385</y>
       <w>120</w>
       <h>35</h>
     </coordinates>
@@ -462,6 +462,17 @@ poiObject1</panel_attributes>
 - typeMapper: map&lt;Integer, String&gt;
 --
 + getType(id: int): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>45</x>
+      <y>55</y>
+      <w>745</w>
+      <h>370</h>
+    </coordinates>
+    <panel_attributes>CD ADAPTERVIEW</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

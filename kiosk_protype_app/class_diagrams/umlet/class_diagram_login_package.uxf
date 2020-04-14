@@ -4,27 +4,25 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>55</x>
-      <y>395</y>
+      <x>135</x>
+      <y>485</y>
       <w>125</w>
-      <h>60</h>
+      <h>45</h>
     </coordinates>
     <panel_attributes>MemberOrNot
 --
 - registerButton: Button
-- loginButton: Button
-- bikeObject: ABikeObject
 --
 # onCreate(savedInstanceState): void
 - initButtons(): void
-bg=red</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>460</x>
-      <y>0</y>
+      <x>540</x>
+      <y>65</y>
       <w>130</w>
       <h>45</h>
     </coordinates>
@@ -39,44 +37,42 @@ bg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>230</x>
-      <y>445</y>
+      <x>515</x>
+      <y>615</y>
       <w>150</w>
-      <h>75</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>LoginOptions
 --
 - codeLogin: Button
 - smsLogin: button
 - rfidButton: Button
-- bikeObject: ABikeObject
 - type: String
 --
 # onCreate(savedInstanceState: Bundle): void
 - initButtons(): void
-
-bg=red</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>110</x>
-      <y>450</y>
-      <w>130</w>
-      <h>40</h>
+      <x>235</x>
+      <y>525</y>
+      <w>290</w>
+      <h>135</h>
     </coordinates>
     <panel_attributes>lt=-
 onMemberClicked &gt;</panel_attributes>
-    <additional_attributes>240.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+    <additional_attributes>560.0;250.0;10.0;250.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>205</x>
-      <y>200</y>
+      <x>285</x>
+      <y>265</y>
       <w>130</w>
-      <h>240</h>
+      <h>225</h>
     </coordinates>
     <panel_attributes>LoginStandardCode
 --
@@ -91,8 +87,6 @@ onMemberClicked &gt;</panel_attributes>
 - buttonList: ArrayList&lt;Button&gt;
 - deleteButton: Button
 - loginButton: Button
-- bikeObject: ABikeObject
-
 --
 # onCreate(savedInstanceState: Bundle): void
 - connectTextViews(): void
@@ -108,16 +102,14 @@ onMemberClicked &gt;</panel_attributes>
 + toPaymentWindow(): void
 + toPayForServicesWindow(): void
 + toAccountSettingsWindow(): void
-+ toNextWindow(): void
-
-bg=red</panel_attributes>
++ toNextWindow(): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>220</x>
-      <y>130</y>
+      <x>300</x>
+      <y>195</y>
       <w>100</w>
       <h>35</h>
     </coordinates>
@@ -130,8 +122,8 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>265</x>
-      <y>160</y>
+      <x>345</x>
+      <y>225</y>
       <w>45</w>
       <h>50</h>
     </coordinates>
@@ -142,24 +134,24 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>330</x>
-      <y>325</y>
-      <w>70</w>
-      <h>130</h>
+      <x>410</x>
+      <y>390</y>
+      <w>125</w>
+      <h>235</h>
     </coordinates>
     <panel_attributes>lt=-
-standard
+&lt; standard
 login 
-Selected &gt;</panel_attributes>
-    <additional_attributes>50.0;240.0;50.0;10.0;10.0;10.0</additional_attributes>
+Selected</panel_attributes>
+    <additional_attributes>230.0;450.0;230.0;350.0;50.0;350.0;50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>405</x>
-      <y>200</y>
+      <x>485</x>
+      <y>265</y>
       <w>230</w>
-      <h>315</h>
+      <h>290</h>
     </coordinates>
     <panel_attributes>LoginMemberCardBluetooth
 --
@@ -174,15 +166,12 @@ Selected &gt;</panel_attributes>
 - mail: String
 - mailPattern: String
 - type: String
-- bikeObject: ABikeObjecy
 - deviceName: String
-- loadingDialog: LoadingDialog
 - androidPollHandler: Handler
 - codeRFID: String
 - runnable: Runnable
 - handlerInterval: int
 - RESULT_FAILED: int
-
 --
 # onCreate(savedInstanceState: Bundle): void
 - sendReadMessage(): void
@@ -201,16 +190,14 @@ Selected &gt;</panel_attributes>
 - checkConnected(): void
 + onActivityResult(requestCode: int, resultCode: int, data: Intent): void
 + compareCodes(receivedCode: String)
-
-
-bg=red</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>385</x>
-      <y>130</y>
+      <x>465</x>
+      <y>195</y>
       <w>100</w>
       <h>35</h>
     </coordinates>
@@ -223,8 +210,8 @@ bg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>505</x>
-      <y>130</y>
+      <x>585</x>
+      <y>195</y>
       <w>100</w>
       <h>35</h>
     </coordinates>
@@ -237,8 +224,8 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>435</x>
-      <y>160</y>
+      <x>515</x>
+      <y>225</y>
       <w>45</w>
       <h>50</h>
     </coordinates>
@@ -249,8 +236,8 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>550</x>
-      <y>160</y>
+      <x>630</x>
+      <y>225</y>
       <w>45</w>
       <h>50</h>
     </coordinates>
@@ -261,8 +248,8 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>265</x>
-      <y>80</y>
+      <x>345</x>
+      <y>145</y>
       <w>185</w>
       <h>60</h>
     </coordinates>
@@ -272,8 +259,8 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>435</x>
-      <y>80</y>
+      <x>515</x>
+      <y>145</y>
       <w>130</w>
       <h>60</h>
     </coordinates>
@@ -283,22 +270,22 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>315</x>
-      <y>510</y>
-      <w>215</w>
-      <h>45</h>
+      <x>595</x>
+      <y>550</y>
+      <w>65</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=-
 rfid card login &gt;</panel_attributes>
-    <additional_attributes>410.0;10.0;410.0;70.0;10.0;70.0;10.0;20.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>650</x>
-      <y>200</y>
+      <x>730</x>
+      <y>265</y>
       <w>130</w>
-      <h>240</h>
+      <h>180</h>
     </coordinates>
     <panel_attributes>LoginSms
 --
@@ -307,12 +294,10 @@ rfid card login &gt;</panel_attributes>
 - mailPattern: String
 - verificationCode: String
 - phoneNumber: String
-- mailDialog: MailDialog
 - entryList: ArrayList&lt;TextView&gt;
 - buttonList: ArrayList&lt;Button&gt;
 - deleteButton: Button
 - loginButton: Button
-- bikeObject: ABikeObject
 --
 # onCreate(savedInstanceState: Bundle): void
 - connectTextViews(): void
@@ -323,18 +308,14 @@ rfid card login &gt;</panel_attributes>
 - deleteEntry(): void
 - checkInput(): void
 - checkMailEdit(): boolean
-+ sendVerificationCodes(): void
-+ generatedCode(): String
-
-
-bg=red</panel_attributes>
++ sendVerificationCodes(): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>650</x>
-      <y>465</y>
+      <x>850</x>
+      <y>195</y>
       <w>135</w>
       <h>45</h>
     </coordinates>
@@ -349,19 +330,19 @@ MailDialogListener
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>705</x>
-      <y>435</y>
-      <w>15</w>
-      <h>40</h>
+      <x>855</x>
+      <y>235</y>
+      <w>75</w>
+      <h>95</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+    <additional_attributes>130.0;10.0;130.0;170.0;10.0;170.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>660</x>
-      <y>125</y>
+      <x>740</x>
+      <y>190</y>
       <w>100</w>
       <h>35</h>
     </coordinates>
@@ -374,8 +355,8 @@ MailDialogListener
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>550</x>
-      <y>80</y>
+      <x>630</x>
+      <y>145</y>
       <w>170</w>
       <h>55</h>
     </coordinates>
@@ -385,8 +366,8 @@ MailDialogListener
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>705</x>
-      <y>155</y>
+      <x>785</x>
+      <y>220</y>
       <w>45</w>
       <h>50</h>
     </coordinates>
@@ -397,20 +378,20 @@ MailDialogListener
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>255</x>
-      <y>350</y>
-      <w>595</w>
-      <h>210</h>
+      <x>660</x>
+      <y>440</y>
+      <w>130</w>
+      <h>215</h>
     </coordinates>
     <panel_attributes>lt=-
 sms login &gt;</panel_attributes>
-    <additional_attributes>1050.0;10.0;1100.0;10.0;1100.0;400.0;10.0;400.0;10.0;340.0</additional_attributes>
+    <additional_attributes>170.0;10.0;170.0;410.0;10.0;410.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>265</x>
-      <y>85</y>
+      <x>345</x>
+      <y>150</y>
       <w>15</w>
       <h>55</h>
     </coordinates>
@@ -420,12 +401,238 @@ sms login &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>515</x>
-      <y>40</y>
+      <x>595</x>
+      <y>105</y>
       <w>15</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>130</x>
+      <y>60</y>
+      <w>930</w>
+      <h>635</h>
+    </coordinates>
+    <panel_attributes>CD_LOGIN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>140</x>
+      <y>270</y>
+      <w>90</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>REF
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>145</x>
+      <y>280</y>
+      <w>85</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>CD_ADAPTERVIEW
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>290</y>
+      <w>115</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+
+
+bikeObject: ABikeObject
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;210.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>140</x>
+      <y>290</y>
+      <w>90</w>
+      <h>205</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+bikeObject: ABikeObject
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;390.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>150</x>
+      <y>290</y>
+      <w>375</w>
+      <h>345</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+bikeObject: ABikeObject
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;230.0;70.0;230.0;670.0;730.0;670.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>925</x>
+      <y>440</y>
+      <w>90</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>REF
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>935</x>
+      <y>450</y>
+      <w>75</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>CD_ADAPTERVIEW
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>460</y>
+      <w>305</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+bikeObject: ABikeObject</panel_attributes>
+    <additional_attributes>440.0;10.0;440.0;90.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>855</x>
+      <y>405</y>
+      <w>160</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+bikeObject: ABikeObject</panel_attributes>
+    <additional_attributes>150.0;70.0;150.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>460</y>
+      <w>345</w>
+      <h>85</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+loadingDialog: LoadingDialog</panel_attributes>
+    <additional_attributes>490.0;10.0;490.0;150.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>855</x>
+      <y>385</y>
+      <w>205</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+mailDialog: MailDialog</panel_attributes>
+    <additional_attributes>250.0;110.0;250.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>210</x>
+      <y>85</y>
+      <w>90</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>REF
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>215</x>
+      <y>95</y>
+      <w>85</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>CD_PAYMENT
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>105</y>
+      <w>65</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-
+&lt; login succes
+PaymentSelect
+
+&lt; login succs
+AccountSettings
+
+&lt; login succes
+PayForServices</panel_attributes>
+    <additional_attributes>10.0;180.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>190</y>
+      <w>85</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>150.0;220.0;50.0;220.0;50.0;130.0;10.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>185</y>
+      <w>285</w>
+      <h>125</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>550.0;230.0;450.0;230.0;450.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>120</y>
+      <w>370</w>
+      <h>155</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;140.0;10.0;10.0;650.0;10.0;650.0;250.0;720.0;250.0;720.0;290.0</additional_attributes>
   </element>
 </diagram>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>5</zoom_level>
+  <zoom_level>7</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>215</x>
-      <y>160</y>
-      <w>135</w>
-      <h>90</h>
+      <x>98</x>
+      <y>203</y>
+      <w>189</w>
+      <h>126</h>
     </coordinates>
     <panel_attributes>PoiSelectType
 --
@@ -26,32 +26,27 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>450</x>
-      <y>160</y>
-      <w>135</w>
-      <h>65</h>
+      <x>427</x>
+      <y>210</y>
+      <w>189</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>PoiArrayView
 --
 - listView: ListView
-- adapter: PoiAdapter1
 - hoofdView: TextView
-- poiObjects: ArrayList&lt;PoiObject1&gt;
 - type: int
 --
-# onCreate(savedInstance: Bundle): void
-
-
-bg=red</panel_attributes>
+# onCreate(savedInstance: Bundle): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>450</x>
-      <y>15</y>
-      <w>130</w>
-      <h>45</h>
+      <x>427</x>
+      <y>7</y>
+      <w>182</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>AsyncTask
 --
@@ -64,10 +59,10 @@ bg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>475</x>
-      <y>90</y>
-      <w>85</w>
-      <h>35</h>
+      <x>462</x>
+      <y>112</y>
+      <w>119</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>ConnectionPoiType1
 --
@@ -78,10 +73,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>510</x>
-      <y>55</y>
-      <w>15</w>
-      <h>45</h>
+      <x>511</x>
+      <y>63</y>
+      <w>21</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
@@ -89,10 +84,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>510</x>
-      <y>120</y>
-      <w>45</w>
-      <h>50</h>
+      <x>511</x>
+      <y>154</y>
+      <w>63</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;execute&gt;&gt;</panel_attributes>
@@ -101,10 +96,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>345</x>
-      <y>180</y>
-      <w>115</w>
-      <h>20</h>
+      <x>280</x>
+      <y>231</y>
+      <w>161</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=-
 activityTypeSelected &gt;</panel_attributes>
@@ -113,10 +108,10 @@ activityTypeSelected &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>595</x>
-      <y>160</y>
-      <w>135</w>
-      <h>105</h>
+      <x>630</x>
+      <y>210</y>
+      <w>189</w>
+      <h>161</h>
     </coordinates>
     <panel_attributes>PoiSingleItem
 --
@@ -127,54 +122,48 @@ activityTypeSelected &gt;</panel_attributes>
 - descriptionsView: TextView
 - poiImageView: ImageView
 - poiRoutButton: Button
-- object1: PoiObject1
 --
 # onCreate(savedInstance: Bundle): void
 - initViews(): void
 - buttonListener(): void
 - getPreviousData(): void
-- setViews(): void
-
-bg=red</panel_attributes>
+- setViews(): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
-      <y>90</y>
-      <w>85</w>
-      <h>50</h>
+      <x>665</x>
+      <y>112</y>
+      <w>119</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>ConnectionPoi
 --
 - result: String
-- loading: ProgressDialog
 --
-# onPreExecute(): void
-
-bg=red</panel_attributes>
+# onPreExecute(): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>655</x>
-      <y>135</y>
-      <w>45</w>
-      <h>35</h>
+      <x>714</x>
+      <y>154</y>
+      <w>63</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;execute&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>510</x>
-      <y>65</y>
-      <w>160</w>
-      <h>35</h>
+      <x>511</x>
+      <y>77</y>
+      <w>224</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;300.0;20.0;300.0;50.0</additional_attributes>
@@ -182,31 +171,29 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>510</x>
-      <y>220</y>
-      <w>160</w>
-      <h>75</h>
+      <x>511</x>
+      <y>280</y>
+      <w>224</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>lt=-
 
 poiSelected &gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;120.0;300.0;120.0;300.0;90.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0;300.0;140.0;300.0;130.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>600</x>
-      <y>305</y>
-      <w>150</w>
-      <h>170</h>
+      <x>637</x>
+      <y>413</y>
+      <w>210</w>
+      <h>238</h>
     </coordinates>
     <panel_attributes>PoiSingleRoute
 --
 - mapView: MapView
 - mapBoxMap: MapboxMap
 - destinationMarker: Marker
-- kioskInfo: KioskInfo
-- poiObject1: PoiObject1
 - distanceTextView: TextView
 - titleView: TextView
 - navigationMapRoute: NavigationMapRoute
@@ -222,17 +209,16 @@ poiSelected &gt;</panel_attributes>
 + onLowMemory(): void
 + onDestroy(): void
 + onSaveInstance(outState: Bundle)
-
-bg=red</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>535</x>
-      <y>510</y>
-      <w>140</w>
-      <h>45</h>
+      <x>546</x>
+      <y>700</y>
+      <w>196</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 OnMapReadyCallBack
@@ -246,10 +232,10 @@ OnMapReadyCallBack
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>600</x>
-      <y>470</y>
-      <w>85</w>
-      <h>50</h>
+      <x>637</x>
+      <y>644</y>
+      <w>119</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;80.0;10.0;60.0;150.0;60.0;150.0;10.0</additional_attributes>
@@ -257,10 +243,10 @@ OnMapReadyCallBack
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>380</x>
-      <y>510</y>
-      <w>140</w>
-      <h>45</h>
+      <x>329</x>
+      <y>700</y>
+      <w>196</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 CallBack&lt;T&gt;
@@ -275,10 +261,10 @@ CallBack&lt;T&gt;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>445</x>
-      <y>470</y>
-      <w>200</w>
-      <h>50</h>
+      <x>420</x>
+      <y>644</y>
+      <w>280</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;80.0;10.0;40.0;380.0;40.0;380.0;10.0</additional_attributes>
@@ -286,22 +272,22 @@ CallBack&lt;T&gt;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>675</x>
-      <y>260</y>
-      <w>60</w>
-      <h>55</h>
+      <x>742</x>
+      <y>364</y>
+      <w>84</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=-
 show route &gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0;100.0;50.0;100.0;90.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0;100.0;30.0;100.0;70.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>355</x>
-      <y>270</y>
-      <w>150</w>
-      <h>205</h>
+      <x>294</x>
+      <y>364</y>
+      <w>210</w>
+      <h>273</h>
     </coordinates>
     <panel_attributes>PoiAllMapView
 --
@@ -309,9 +295,7 @@ show route &gt;</panel_attributes>
 - mapBoxMap: MapboxMap
 - kioskInfo: KioskInfo
 - gotToPoiButton: Button
-- poiMapObjects: List&lt;PoiObject1&gt;
 - poiMarkers: List&lt;MarkerOptions&gt;
-- selectedPoiObject: PoiObject1 
 --
 # onCreate(savedInstance: Bundle): void
 - getKioskInfo(): void
@@ -322,24 +306,23 @@ show route &gt;</panel_attributes>
 - initializeMap(): void
 - setCameraPosition(): void
 - getRoute(origin: Point, destinatio: Point): void
+- setMarker(marker: Marker): void
 + onResume(): void
 + onStart(): void
 + onStop(): void
 + onPause(): void
 + onLowMemory(): void
 + onDestroy(): void
-+ onSaveInstance(outState: Bundle)
-
-bg=red</panel_attributes>
++ onSaveInstance(outState: Bundle)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>330</x>
-      <y>90</y>
-      <w>85</w>
-      <h>35</h>
+      <x>259</x>
+      <y>112</y>
+      <w>119</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>ConnectionGetAllPoi
 --
@@ -350,10 +333,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>365</x>
-      <y>65</y>
-      <w>160</w>
-      <h>35</h>
+      <x>308</x>
+      <y>77</y>
+      <w>224</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>300.0;20.0;10.0;20.0;10.0;50.0</additional_attributes>
@@ -361,10 +344,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>205</x>
-      <y>120</y>
-      <w>175</w>
-      <h>220</h>
+      <x>84</x>
+      <y>154</y>
+      <w>245</w>
+      <h>308</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;execute&gt;&gt;</panel_attributes>
@@ -373,25 +356,205 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>500</x>
-      <y>260</y>
-      <w>180</w>
-      <h>125</h>
+      <x>497</x>
+      <y>364</y>
+      <w>252</w>
+      <h>161</h>
     </coordinates>
     <panel_attributes>lt=-
 showSelectedPoi &gt;</panel_attributes>
-    <additional_attributes>10.0;230.0;30.0;230.0;30.0;80.0;340.0;80.0;340.0;10.0</additional_attributes>
+    <additional_attributes>10.0;210.0;30.0;210.0;30.0;60.0;340.0;60.0;340.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>345</x>
-      <y>220</y>
-      <w>95</w>
-      <h>60</h>
+      <x>280</x>
+      <y>287</y>
+      <w>133</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>lt=-
 activityMapSelected &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;170.0;20.0;170.0;100.0</additional_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0;170.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>84</x>
+      <y>0</y>
+      <w>770</w>
+      <h>770</h>
+    </coordinates>
+    <panel_attributes>CD_POI</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>105</x>
+      <y>462</y>
+      <w>147</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>REF
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>133</x>
+      <y>462</y>
+      <w>112</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>CD_ADAPTERVIEW
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>175</x>
+      <y>483</y>
+      <w>133</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+
+selectedPoiObject:
+PoiObject1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0;170.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>126</x>
+      <y>483</y>
+      <w>182</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=0..n
+
+
+
+poiMapObjects:List&lt;PoiObject1&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0;240.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>112</x>
+      <y>483</y>
+      <w>539</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=0..n
+
+poiObject1: PoiObject1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;220.0;750.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>112</x>
+      <y>658</y>
+      <w>112</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>REF
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>140</x>
+      <y>658</y>
+      <w>98</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>CD_GENERAL
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>217</x>
+      <y>637</y>
+      <w>434</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+kioskInfo: KioskInfo</panel_attributes>
+    <additional_attributes>10.0;50.0;90.0;50.0;90.0;10.0;600.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>168</x>
+      <y>350</y>
+      <w>476</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+
+object1: PoiObject1</panel_attributes>
+    <additional_attributes>10.0;160.0;10.0;10.0;660.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>147</x>
+      <y>280</y>
+      <w>364</w>
+      <h>196</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+poiObjects: ArrayList&lt;PoiObject1&gt;, adapter: PoiAdapter1</panel_attributes>
+    <additional_attributes>10.0;260.0;10.0;90.0;500.0;90.0;500.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>665</x>
+      <y>14</y>
+      <w>147</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>REF
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>693</x>
+      <y>14</y>
+      <w>112</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>CD_ADAPTERVIEW
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>735</x>
+      <y>35</y>
+      <w>126</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+loading: ProgressDialog</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
   </element>
 </diagram>

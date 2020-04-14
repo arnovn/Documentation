@@ -127,4 +127,15 @@ new ByteArrayDataSource</panel_attributes>
 new JSSEProvider</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
   </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>72</x>
+      <y>63</y>
+      <w>828</w>
+      <h>315</h>
+    </coordinates>
+    <panel_attributes>CD_MAILSENDER</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
