@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>6</zoom_level>
+  <zoom_level>5</zoom_level>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>468</x>
-      <y>510</y>
-      <w>60</w>
-      <h>18</h>
+      <x>395</x>
+      <y>490</y>
+      <w>50</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>_:MainActivity_
 </panel_attributes>
@@ -16,10 +16,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>492</x>
-      <y>522</y>
-      <w>18</w>
-      <h>42</h>
+      <x>415</x>
+      <y>500</y>
+      <w>15</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
@@ -27,10 +27,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>492</x>
-      <y>552</y>
-      <w>12</w>
-      <h>138</h>
+      <x>415</x>
+      <y>525</y>
+      <w>10</w>
+      <h>115</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -38,10 +38,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>402</x>
-      <y>552</y>
-      <w>102</w>
-      <h>24</h>
+      <x>340</x>
+      <y>525</y>
+      <w>85</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 onCreate(b)</panel_attributes>
@@ -50,10 +50,10 @@ onCreate(b)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>498</x>
-      <y>564</y>
-      <w>114</w>
-      <h>30</h>
+      <x>420</x>
+      <y>535</y>
+      <w>95</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 connectTextViews()</panel_attributes>
@@ -62,10 +62,10 @@ connectTextViews()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>498</x>
-      <y>588</y>
-      <w>102</w>
-      <h>30</h>
+      <x>420</x>
+      <y>555</y>
+      <w>85</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 connectButtons()</panel_attributes>
@@ -74,10 +74,10 @@ connectButtons()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>498</x>
-      <y>612</y>
-      <w>120</w>
-      <h>30</h>
+      <x>420</x>
+      <y>575</y>
+      <w>100</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 setOnClickListeners()</panel_attributes>
@@ -86,10 +86,10 @@ setOnClickListeners()</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>144</x>
-      <y>48</y>
-      <w>492</w>
-      <h>450</h>
+      <x>125</x>
+      <y>105</y>
+      <w>410</w>
+      <h>375</h>
     </coordinates>
     <panel_attributes>onClick
 bg=red</panel_attributes>
@@ -98,10 +98,10 @@ bg=red</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>546</x>
-      <y>648</y>
-      <w>66</w>
-      <h>30</h>
+      <x>460</x>
+      <y>605</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>REF
 bg=red</panel_attributes>
@@ -110,10 +110,10 @@ bg=red</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>552</x>
-      <y>660</y>
-      <w>48</w>
-      <h>18</h>
+      <x>465</x>
+      <y>615</y>
+      <w>40</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>onClick
 style=wordwrap
@@ -123,10 +123,10 @@ bg=black</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>192</x>
-      <y>54</y>
-      <w>60</w>
-      <h>18</h>
+      <x>165</x>
+      <y>110</y>
+      <w>50</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>_:MainActivity_
 </panel_attributes>
@@ -135,10 +135,10 @@ bg=black</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>156</x>
-      <y>78</y>
-      <w>474</w>
-      <h>402</h>
+      <x>135</x>
+      <y>130</y>
+      <w>395</w>
+      <h>335</h>
     </coordinates>
     <panel_attributes>ALT</panel_attributes>
     <additional_attributes/>
@@ -146,10 +146,10 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>216</x>
-      <y>66</y>
-      <w>18</w>
-      <h>42</h>
+      <x>185</x>
+      <y>120</y>
+      <w>15</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
@@ -157,10 +157,10 @@ bg=black</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>156</x>
-      <y>90</y>
-      <w>78</w>
-      <h>18</h>
+      <x>135</x>
+      <y>140</y>
+      <w>65</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>b = deleteButton
 style=wordwrap
@@ -170,10 +170,10 @@ bg=black</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>216</x>
-      <y>96</y>
-      <w>12</w>
-      <h>396</h>
+      <x>185</x>
+      <y>145</y>
+      <w>10</w>
+      <h>330</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -181,10 +181,10 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>222</x>
-      <y>96</y>
-      <w>90</w>
-      <h>30</h>
+      <x>190</x>
+      <y>145</y>
+      <w>75</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 deleteEntry()</panel_attributes>
@@ -193,10 +193,10 @@ deleteEntry()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>150</x>
-      <y>114</y>
-      <w>492</w>
-      <h>18</h>
+      <x>130</x>
+      <y>160</y>
+      <w>410</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;800.0;10.0</additional_attributes>
@@ -204,10 +204,10 @@ deleteEntry()</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>156</x>
-      <y>120</y>
-      <w>72</w>
-      <h>18</h>
+      <x>135</x>
+      <y>165</y>
+      <w>60</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>b = loginButton
 style=wordwrap
@@ -217,10 +217,10 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>222</x>
-      <y>126</y>
-      <w>90</w>
-      <h>30</h>
+      <x>190</x>
+      <y>170</y>
+      <w>75</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 checkInput()</panel_attributes>
@@ -229,10 +229,10 @@ checkInput()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>222</x>
-      <y>150</y>
-      <w>114</w>
-      <h>30</h>
+      <x>190</x>
+      <y>190</y>
+      <w>95</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 a = checkMailEdit()</panel_attributes>
@@ -241,10 +241,10 @@ a = checkMailEdit()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>150</x>
-      <y>420</y>
-      <w>492</w>
-      <h>18</h>
+      <x>130</x>
+      <y>415</y>
+      <w>410</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;800.0;10.0</additional_attributes>
@@ -252,10 +252,10 @@ a = checkMailEdit()</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>156</x>
-      <y>426</y>
-      <w>72</w>
-      <h>18</h>
+      <x>135</x>
+      <y>420</y>
+      <w>60</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>b = entryButton
 style=wordwrap
@@ -265,10 +265,10 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>222</x>
-      <y>432</y>
-      <w>78</w>
-      <h>30</h>
+      <x>190</x>
+      <y>425</y>
+      <w>65</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 addEntry()</panel_attributes>
@@ -277,10 +277,10 @@ addEntry()</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>162</x>
-      <y>180</y>
-      <w>462</w>
-      <h>234</h>
+      <x>140</x>
+      <y>215</y>
+      <w>385</w>
+      <h>195</h>
     </coordinates>
     <panel_attributes>ALT</panel_attributes>
     <additional_attributes/>
@@ -288,10 +288,10 @@ addEntry()</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>162</x>
-      <y>192</y>
-      <w>60</w>
-      <h>18</h>
+      <x>140</x>
+      <y>225</y>
+      <w>50</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>a = true
 style=wordwrap
@@ -301,10 +301,10 @@ bg=black</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>348</x>
-      <y>54</y>
-      <w>102</w>
-      <h>18</h>
+      <x>295</x>
+      <y>110</y>
+      <w>85</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>_:ConnectionGetUserCode_
 </panel_attributes>
@@ -313,10 +313,10 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>66</y>
-      <w>18</w>
-      <h>126</h>
+      <x>330</x>
+      <y>120</y>
+      <w>15</w>
+      <h>105</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;190.0</additional_attributes>
@@ -324,10 +324,10 @@ bg=black</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>390</x>
-      <y>180</y>
-      <w>12</w>
-      <h>162</h>
+      <x>330</x>
+      <y>215</y>
+      <w>10</w>
+      <h>135</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -335,10 +335,10 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
-      <y>198</y>
-      <w>108</w>
-      <h>30</h>
+      <x>335</x>
+      <y>230</y>
+      <w>90</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 doInBackground()</panel_attributes>
@@ -347,10 +347,10 @@ doInBackground()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
-      <y>222</y>
-      <w>102</w>
-      <h>30</h>
+      <x>335</x>
+      <y>250</y>
+      <w>85</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 onPostExecute()</panel_attributes>
@@ -359,10 +359,10 @@ onPostExecute()</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>168</x>
-      <y>312</y>
-      <w>438</w>
-      <h>96</h>
+      <x>145</x>
+      <y>325</y>
+      <w>365</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>ALT</panel_attributes>
     <additional_attributes/>
@@ -370,10 +370,10 @@ onPostExecute()</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>168</x>
-      <y>324</y>
-      <w>60</w>
-      <h>18</h>
+      <x>145</x>
+      <y>335</y>
+      <w>50</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>b = true
 style=wordwrap
@@ -383,10 +383,10 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>222</x>
-      <y>318</y>
-      <w>180</w>
-      <h>24</h>
+      <x>190</x>
+      <y>330</y>
+      <w>150</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 toNextWindow()</panel_attributes>
@@ -395,10 +395,10 @@ toNextWindow()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>222</x>
-      <y>348</y>
-      <w>120</w>
-      <h>24</h>
+      <x>190</x>
+      <y>355</y>
+      <w>100</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 startActivity(intent)</panel_attributes>
@@ -407,10 +407,10 @@ startActivity(intent)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>330</x>
-      <y>354</y>
-      <w>66</w>
-      <h>36</h>
+      <x>280</x>
+      <y>360</y>
+      <w>55</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>REF
 bg=yellow</panel_attributes>
@@ -419,10 +419,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>330</x>
-      <y>366</y>
-      <w>72</w>
-      <h>18</h>
+      <x>280</x>
+      <y>370</y>
+      <w>60</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>paymentActivity
 style=wordwrap
@@ -432,10 +432,10 @@ bg=black</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>666</x>
-      <y>30</y>
-      <w>102</w>
-      <h>18</h>
+      <x>560</x>
+      <y>90</y>
+      <w>85</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>_:PaymentActivity_</panel_attributes>
     <additional_attributes/>
@@ -443,10 +443,10 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>708</x>
-      <y>42</y>
-      <w>18</w>
-      <h>42</h>
+      <x>595</x>
+      <y>100</y>
+      <w>15</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
@@ -454,10 +454,10 @@ bg=black</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>708</x>
-      <y>72</y>
-      <w>12</w>
-      <h>420</h>
+      <x>595</x>
+      <y>125</y>
+      <w>10</w>
+      <h>350</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -465,10 +465,10 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>642</x>
-      <y>78</y>
-      <w>78</w>
-      <h>24</h>
+      <x>540</x>
+      <y>130</y>
+      <w>65</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 startActivity</panel_attributes>
@@ -477,10 +477,10 @@ startActivity</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>714</x>
-      <y>90</y>
-      <w>84</w>
-      <h>30</h>
+      <x>600</x>
+      <y>140</y>
+      <w>70</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 onCreate(b)</panel_attributes>
@@ -489,10 +489,10 @@ onCreate(b)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>804</x>
-      <y>30</y>
-      <w>60</w>
-      <h>18</h>
+      <x>675</x>
+      <y>90</y>
+      <w>50</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>_:CodeScanner_</panel_attributes>
     <additional_attributes/>
@@ -500,10 +500,10 @@ onCreate(b)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>642</x>
-      <y>0</y>
-      <w>522</w>
-      <h>498</h>
+      <x>540</x>
+      <y>65</y>
+      <w>435</w>
+      <h>415</h>
     </coordinates>
     <panel_attributes>paymentActivity
 bg=yellow</panel_attributes>
@@ -512,10 +512,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>828</x>
-      <y>42</y>
-      <w>18</w>
-      <h>84</h>
+      <x>695</x>
+      <y>100</y>
+      <w>15</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
@@ -523,10 +523,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>828</x>
-      <y>114</y>
-      <w>12</w>
-      <h>378</h>
+      <x>695</x>
+      <y>160</y>
+      <w>10</w>
+      <h>315</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -534,10 +534,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>714</x>
-      <y>114</y>
-      <w>126</w>
-      <h>24</h>
+      <x>600</x>
+      <y>160</y>
+      <w>105</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 &lt;&lt;create&gt;&gt;</panel_attributes>
@@ -546,10 +546,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>714</x>
-      <y>132</y>
-      <w>126</w>
-      <h>24</h>
+      <x>600</x>
+      <y>175</y>
+      <w>105</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 setDecodeCallBack()</panel_attributes>
@@ -558,10 +558,10 @@ setDecodeCallBack()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>876</x>
-      <y>30</y>
-      <w>72</w>
-      <h>18</h>
+      <x>735</x>
+      <y>90</y>
+      <w>60</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>_:PayPalPayment_</panel_attributes>
     <additional_attributes/>
@@ -569,10 +569,10 @@ setDecodeCallBack()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>906</x>
-      <y>42</y>
-      <w>18</w>
-      <h>114</h>
+      <x>760</x>
+      <y>100</y>
+      <w>15</w>
+      <h>95</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
@@ -580,10 +580,10 @@ setDecodeCallBack()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>906</x>
-      <y>144</y>
-      <w>12</w>
-      <h>348</h>
+      <x>760</x>
+      <y>185</y>
+      <w>10</w>
+      <h>290</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -591,10 +591,10 @@ setDecodeCallBack()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>714</x>
-      <y>150</y>
-      <w>204</w>
-      <h>24</h>
+      <x>600</x>
+      <y>190</y>
+      <w>170</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 &lt;&lt;create&gt;&gt;</panel_attributes>
@@ -603,10 +603,10 @@ setDecodeCallBack()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>714</x>
-      <y>174</y>
-      <w>126</w>
-      <h>24</h>
+      <x>600</x>
+      <y>210</y>
+      <w>105</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 result = decodeCallBack()</panel_attributes>
@@ -615,10 +615,10 @@ result = decodeCallBack()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>714</x>
-      <y>210</y>
-      <w>108</w>
-      <h>30</h>
+      <x>600</x>
+      <y>240</y>
+      <w>90</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 processPayment()</panel_attributes>
@@ -627,10 +627,10 @@ processPayment()</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>648</x>
-      <y>198</y>
-      <w>492</w>
-      <h>282</h>
+      <x>545</x>
+      <y>230</y>
+      <w>410</w>
+      <h>235</h>
     </coordinates>
     <panel_attributes>ALT</panel_attributes>
     <additional_attributes/>
@@ -638,10 +638,10 @@ processPayment()</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>648</x>
-      <y>210</y>
-      <w>54</w>
-      <h>36</h>
+      <x>545</x>
+      <y>240</y>
+      <w>45</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>result.QRId == userId
 style=wordwrap
@@ -651,10 +651,10 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>642</x>
-      <y>420</y>
-      <w>510</w>
-      <h>18</h>
+      <x>540</x>
+      <y>415</y>
+      <w>425</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;830.0;10.0</additional_attributes>
@@ -662,10 +662,10 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>714</x>
-      <y>234</y>
-      <w>204</w>
-      <h>24</h>
+      <x>600</x>
+      <y>260</y>
+      <w>170</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 startActivityForResult(intent, CODE)</panel_attributes>
@@ -674,10 +674,10 @@ startActivityForResult(intent, CODE)</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>648</x>
-      <y>426</y>
-      <w>54</w>
-      <h>36</h>
+      <x>545</x>
+      <y>420</y>
+      <w>45</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>result.QRId != userId
 style=wordwrap
@@ -687,10 +687,10 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>714</x>
-      <y>438</y>
-      <w>66</w>
-      <h>30</h>
+      <x>600</x>
+      <y>430</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 finish()</panel_attributes>
@@ -699,10 +699,10 @@ finish()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>714</x>
-      <y>264</y>
-      <w>204</w>
-      <h>24</h>
+      <x>600</x>
+      <y>285</y>
+      <w>170</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 onActivityResult(CODE, result, data)</panel_attributes>
@@ -711,10 +711,10 @@ onActivityResult(CODE, result, data)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>654</x>
-      <y>288</y>
-      <w>474</w>
-      <h>126</h>
+      <x>550</x>
+      <y>305</y>
+      <w>395</w>
+      <h>105</h>
     </coordinates>
     <panel_attributes>ALT</panel_attributes>
     <additional_attributes/>
@@ -722,10 +722,10 @@ onActivityResult(CODE, result, data)</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>1044</x>
-      <y>336</y>
-      <w>78</w>
-      <h>24</h>
+      <x>875</x>
+      <y>345</y>
+      <w>65</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>paymentDetails
 style=wordwrap
@@ -735,10 +735,10 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>222</x>
-      <y>180</y>
-      <w>180</w>
-      <h>24</h>
+      <x>190</x>
+      <y>215</y>
+      <w>150</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 execute()</panel_attributes>
@@ -747,10 +747,10 @@ execute()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>222</x>
-      <y>240</y>
-      <w>180</w>
-      <h>24</h>
+      <x>190</x>
+      <y>265</y>
+      <w>150</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 checkCodesMatch()</panel_attributes>
@@ -759,10 +759,10 @@ checkCodesMatch()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>960</x>
-      <y>30</y>
-      <w>102</w>
-      <h>18</h>
+      <x>805</x>
+      <y>90</y>
+      <w>85</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>_:ConnectionUpdateOrder_</panel_attributes>
     <additional_attributes/>
@@ -770,10 +770,10 @@ checkCodesMatch()</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>402</x>
-      <y>504</y>
-      <w>234</w>
-      <h>222</h>
+      <x>340</x>
+      <y>485</y>
+      <w>195</w>
+      <h>185</h>
     </coordinates>
     <panel_attributes>START</panel_attributes>
     <additional_attributes/>
@@ -781,10 +781,10 @@ checkCodesMatch()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1002</x>
-      <y>42</y>
-      <w>18</w>
-      <h>264</h>
+      <x>840</x>
+      <y>100</y>
+      <w>15</w>
+      <h>220</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;420.0</additional_attributes>
@@ -792,10 +792,10 @@ checkCodesMatch()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1002</x>
-      <y>294</y>
-      <w>12</w>
-      <h>30</h>
+      <x>840</x>
+      <y>310</y>
+      <w>10</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -803,10 +803,10 @@ checkCodesMatch()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>714</x>
-      <y>294</y>
-      <w>300</w>
-      <h>24</h>
+      <x>600</x>
+      <y>310</y>
+      <w>250</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 execute()</panel_attributes>
@@ -815,10 +815,10 @@ execute()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>714</x>
-      <y>324</y>
-      <w>342</w>
-      <h>24</h>
+      <x>600</x>
+      <y>335</y>
+      <w>285</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 startActivity(intent)</panel_attributes>
@@ -827,10 +827,10 @@ startActivity(intent)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>1044</x>
-      <y>324</y>
-      <w>66</w>
-      <h>30</h>
+      <x>875</x>
+      <y>335</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>REF
 bg=green</panel_attributes>
@@ -839,10 +839,10 @@ bg=green</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>654</x>
-      <y>306</y>
-      <w>54</w>
-      <h>36</h>
+      <x>550</x>
+      <y>320</y>
+      <w>45</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>RESULT_OK
 style=wordwrap
@@ -852,10 +852,10 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>654</x>
-      <y>360</y>
-      <w>486</w>
-      <h>18</h>
+      <x>550</x>
+      <y>365</y>
+      <w>405</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;790.0;10.0</additional_attributes>
@@ -863,10 +863,10 @@ bg=black</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>654</x>
-      <y>372</y>
-      <w>60</w>
-      <h>36</h>
+      <x>550</x>
+      <y>375</y>
+      <w>50</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>RESULT_
 CANCELED
@@ -877,10 +877,10 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>714</x>
-      <y>384</y>
-      <w>342</w>
-      <h>24</h>
+      <x>600</x>
+      <y>385</y>
+      <w>285</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 TODO: update database</panel_attributes>
@@ -889,10 +889,10 @@ TODO: update database</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>642</x>
-      <y>504</y>
-      <w>282</w>
-      <h>222</h>
+      <x>540</x>
+      <y>485</y>
+      <w>235</w>
+      <h>185</h>
     </coordinates>
     <panel_attributes>paymentDetails
 bg=green</panel_attributes>
@@ -901,10 +901,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>666</x>
-      <y>528</y>
-      <w>78</w>
-      <h>18</h>
+      <x>560</x>
+      <y>505</y>
+      <w>65</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>_:PaymentDetails_</panel_attributes>
     <additional_attributes/>
@@ -912,10 +912,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>486</x>
-      <y>54</y>
-      <w>102</w>
-      <h>18</h>
+      <x>410</x>
+      <y>110</y>
+      <w>85</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>_:HashingObject_
 </panel_attributes>
@@ -924,10 +924,10 @@ bg=green</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>222</x>
-      <y>258</y>
-      <w>318</w>
-      <h>24</h>
+      <x>190</x>
+      <y>280</y>
+      <w>265</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 newCode = &lt;&lt;create(code, hashCode)&gt;&gt;</panel_attributes>
@@ -936,10 +936,10 @@ newCode = &lt;&lt;create(code, hashCode)&gt;&gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>528</x>
-      <y>66</y>
-      <w>18</w>
-      <h>198</h>
+      <x>445</x>
+      <y>120</y>
+      <w>15</w>
+      <h>165</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;310.0</additional_attributes>
@@ -947,10 +947,10 @@ newCode = &lt;&lt;create(code, hashCode)&gt;&gt;</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>528</x>
-      <y>252</y>
-      <w>12</w>
-      <h>60</h>
+      <x>445</x>
+      <y>275</y>
+      <w>10</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -958,10 +958,10 @@ newCode = &lt;&lt;create(code, hashCode)&gt;&gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>222</x>
-      <y>276</y>
-      <w>318</w>
-      <h>24</h>
+      <x>190</x>
+      <y>295</y>
+      <w>265</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 newHasCode = newCode.getGeneratedHash()</panel_attributes>
@@ -970,10 +970,10 @@ newHasCode = newCode.getGeneratedHash()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>222</x>
-      <y>294</y>
-      <w>318</w>
-      <h>24</h>
+      <x>190</x>
+      <y>310</y>
+      <w>265</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 b = newHasCode.equals(hashCode)</panel_attributes>
@@ -982,10 +982,10 @@ b = newHasCode.equals(hashCode)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>336</y>
-      <w>18</w>
-      <h>168</h>
+      <x>330</x>
+      <y>345</y>
+      <w>15</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;260.0</additional_attributes>
@@ -993,10 +993,10 @@ b = newHasCode.equals(hashCode)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>528</x>
-      <y>306</y>
-      <w>18</w>
-      <h>198</h>
+      <x>445</x>
+      <y>320</y>
+      <w>15</w>
+      <h>165</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;310.0</additional_attributes>
@@ -1004,10 +1004,10 @@ b = newHasCode.equals(hashCode)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1002</x>
-      <y>318</y>
-      <w>18</w>
-      <h>186</h>
+      <x>840</x>
+      <y>330</y>
+      <w>15</w>
+      <h>155</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;290.0</additional_attributes>
@@ -1015,10 +1015,10 @@ b = newHasCode.equals(hashCode)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>696</x>
-      <y>540</y>
-      <w>18</w>
-      <h>42</h>
+      <x>585</x>
+      <y>515</y>
+      <w>15</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
@@ -1026,10 +1026,10 @@ b = newHasCode.equals(hashCode)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>636</x>
-      <y>576</y>
-      <w>72</w>
-      <h>24</h>
+      <x>535</x>
+      <y>545</y>
+      <w>60</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 startActivity()</panel_attributes>
@@ -1038,10 +1038,10 @@ startActivity()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>696</x>
-      <y>570</y>
-      <w>12</w>
-      <h>150</h>
+      <x>585</x>
+      <y>540</y>
+      <w>10</w>
+      <h>125</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -1049,10 +1049,10 @@ startActivity()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>702</x>
-      <y>588</y>
-      <w>84</w>
-      <h>30</h>
+      <x>590</x>
+      <y>555</y>
+      <w>70</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 onCreate(b)</panel_attributes>
@@ -1061,10 +1061,10 @@ onCreate(b)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>702</x>
-      <y>612</y>
-      <w>102</w>
-      <h>30</h>
+      <x>590</x>
+      <y>575</y>
+      <w>85</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 setOnClickLstn()</panel_attributes>
@@ -1073,10 +1073,10 @@ setOnClickLstn()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>702</x>
-      <y>630</y>
-      <w>90</w>
-      <h>30</h>
+      <x>590</x>
+      <y>590</y>
+      <w>75</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 showDetails()</panel_attributes>
@@ -1085,10 +1085,10 @@ showDetails()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>498</x>
-      <y>642</y>
-      <w>60</w>
-      <h>24</h>
+      <x>420</x>
+      <y>600</y>
+      <w>50</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 onClick()</panel_attributes>
@@ -1097,10 +1097,10 @@ onClick()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>402</x>
-      <y>630</y>
-      <w>102</w>
-      <h>24</h>
+      <x>340</x>
+      <y>590</y>
+      <w>85</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 onClick(b)</panel_attributes>
@@ -1109,10 +1109,10 @@ onClick(b)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>642</x>
-      <y>660</y>
-      <w>66</w>
-      <h>24</h>
+      <x>540</x>
+      <y>615</y>
+      <w>55</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 onClick()</panel_attributes>
@@ -1121,10 +1121,10 @@ onClick()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>702</x>
-      <y>678</y>
-      <w>150</w>
-      <h>24</h>
+      <x>590</x>
+      <y>630</y>
+      <w>125</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 startActivity(intent(CLEAR_TOP))</panel_attributes>
@@ -1133,10 +1133,10 @@ startActivity(intent(CLEAR_TOP))</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>840</x>
-      <y>684</y>
-      <w>72</w>
-      <h>24</h>
+      <x>705</x>
+      <y>635</y>
+      <w>60</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>REF</panel_attributes>
     <additional_attributes/>
@@ -1144,10 +1144,10 @@ startActivity(intent(CLEAR_TOP))</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>870</x>
-      <y>684</y>
-      <w>42</w>
-      <h>36</h>
+      <x>730</x>
+      <y>635</y>
+      <w>35</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>START
 style=wordwrap
